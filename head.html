@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="airline.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+    <link rel="stylesheet" href="bp.css">
+    <script>
+       function fillSeat() {
+         seatNum = document.getElementById('seat').value;
+         // return if seatNum not valid or not found
+         seat=document.getElementById(seatNum);
+         seat.setAttribute("class","filled");
+       }
+//       function jsonify() {
+//           alert("j")
+//       }
+//
+//
+//        function objectifyForm(formArray) {//serialize data function
+//
+//          var returnArray = {};
+//          for (var i = 0; i < formArray.length; i++){
+//            returnArray[formArray[i]['buyTicket']] = formArray[i]['value'];
+//          }
+//          return returnArray;
+//        }
+//        object.onsubmit = function(){jsonify}; 
+//    </sc ript>
+//    <sc ript>
+        function showValues() {
+          var fields = $( ":input" ).serializeArray();
+          $( "#results" ).empty();
+          jQuery.each( fields, function( i, field ) {
+            $( "#results" ).append( field.value + " " );
+          });
+        }
+     
+        $( ":checkbox, :radio, :text" ).click( showValues );
+        $( "select" ).change( showValues );
+
+        showValues();
+    </script>
+
+  </head>
+  <body>

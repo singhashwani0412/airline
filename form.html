@@ -1,0 +1,38 @@
+<script>
+       function savejson() {
+           alert("j")
+       }
+</script>
+
+<p><b>JSON:</b> <span id="pass_json"></span></p>
+<p><b>SQL:</b> <span id="pass_sql"></span></p>
+
+<form id="CustomerProfile">
+  Customer Information<br>
+  First name: <input type="text" name="firstname" id="firstname">
+  Last name: <input type="text" name="lastname" id="lastname">
+  gender:
+  <input type="radio" name="gender" value="male" checked="checked" id="male">
+  <label for="male">male</label>
+  <input type="radio" name="gender" value="female" id="female">
+  <label for="female">female</label>
+  d.o.b.:  <input type="text" name="dob" id="dob">
+  <br>
+  Email: <input type="text" name="email" id="email">
+  Phone num: <input type="text" name="phone" id="phone">
+</form>
+<form id="FlightInfo">
+</form>
+<form id="buyTicket">
+  <br>
+  Flight Number: <input type="text" name="flt" id="flt" value="101">
+  <br>
+
+  Seat Number: <input type="text" name="seat" id="seat" value="1A" onfocusout="fillSeat()">
+  <br>
+  <input type="submit" value="Submit" onsubmit="savejson()">
+</form>
+<div id="etkt">
+</div>
+<div id="boadingpass">
+</div>
