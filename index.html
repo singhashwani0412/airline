@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+<!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+breaks at 1.10.0
+latest:
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+    <script src="js/seats.js"></script>
+    <script src="js/dynamic_reports.js"></script>
+    <link rel="stylesheet" href="style/airline.css">
+    <link rel="stylesheet" href="style/bp.css">
+  </head>
+  <body>
+    Node.js v<script>document.write(process.versions.node)</script>;
+    Chromium v<script>document.write(process.versions.chrome)</script>;
+    Electron v<script>document.write(process.versions.electron)</script>.
+    <script>
+        aircraft = "ERJ-190";
+        document.write(buildHtml(aircraft));
+    </script>
+<p><b>JSON:</b> <span id="pass_json"></span></p>
+<p><b>SQL:</b> <span id="pass_sql"></span></p>
+
+<form id="CustomerProfile">
+  Customer Information<br>
+  First name: <input type="text" name="firstname" id="firstname">
+  Last name: <input type="text" name="lastname" id="lastname">
+  gender:
+  <input type="radio" name="gender" value="male" checked="checked" id="male">
+  <label for="male">male</label>
+  <input type="radio" name="gender" value="female" id="female">
+  <label for="female">female</label>
+  d.o.b.:  <input type="text" name="dob" id="dob">
+  <br>
+  Email: <input type="text" name="email" id="email">
+  Phone num: <input type="text" name="phone" id="phone">
+</form>
+<form id="FlightInfo">
+</form>
+<form id="buyTicket">
+  <br>
+  Flight Number: <input type="text" name="flt" id="flt" value="101">
+  <br>
+
+  Seat Number: <input type="text" name="seat" id="seat" value="1A" onfocusout="fillSeat()">
+  <br>
+  <input type="submit" value="Submit" onsubmit="savejson()">
+</form>
+<div id="etkt">
+</div>
+<div id="boadingpass">
+</div>
+<script>
+        $( ":checkbox, :radio, :text" ).click( showValues );
+        $( "select" ).change( showValues );
+        showValues();
+        object.onsubmit = function(){jsonify}; 
+</script>
+<div class="boardingpass">
+  <header>
+    <svg>
+      <use xlink:href="#indigo"></use>
+    </svg>
+
+    <div>
+      <h4>FF</h4>
+      <h5 id="bp_ff">HL354298</h5>
+    </div>
+
+    <div class="passenger">
+      <h4>Passenger</h4>
+      <h5 id="bp_firstname">Ashwani</h5>
+      <h5 id="bp_lastname">Singh</h5>
+    </div>
+
+    <div>
+      <h4>sex</h4>
+      <h5 id="bp_sex">male</h5>
+    </div>
+
+    <div>
+      <h4>etkt</h4>
+      <h5 id="bp_etkt">0982962418101C1</h5>
+    </div>
+
+    <div>
+    <h4>PNR/Booking</h4>
+    <h5 id="bp_pnr">XJ45D9</h5>
+    </div>
+  </header>
+
+  <section class="flt">
+    <div>
+      <h4>Flight</h4>
+      <h5 id="bp_flt">6E 604</h5>
+      <h4>Depart on</h4>
+      <h5 id="bp_date">30 May</h5>
+    </div>
+
+
+    <div class="city">
+      <h2 id="bp_orig_code">IXD</h2>
+      <h3 id="bp_orig_name">Allahabad</h3>
+      <div>
+      <h4>Board</h4>
+      <h5 id="bp_boarding">16:00</h5>
+      </div>
+      <div>
+      <h4>Depart</h4>
+      <h5 id="bp_departure">16:30</h5>
+      </div>
+    </div>
+
+    <div class="city">
+      <h2 id="bp_dest_code">BLR</h2>
+      <h3 id="bp_dest_name">Bengaluru</h3>
+      <h4>Duration</h4>
+      <h5 id="bp_duration">1.5h</h5>
+      <h4>Arrive</h4>
+      <h5 id="bp_arrival">18:00</h5>
+    </div>
+    <div>
+      <h4>Term.</h4>
+      <h5 id="bp_term">T3</h5>
+    </div>
+
+    <div>
+      <h4>Gate</h4>
+      <h5 id="bp_gate">07</h5>
+    </div>
+  </section>
+  <section class="info">
+    <div>
+      <h4>Seat</h4>
+      <h5 id="bp_seat">12 F</h5>
+    </div>
+
+    <div>
+      <h4>Bags</h4>
+      <h5 id="bp_bags">2</h5>
+    </div>
+    <div>
+      <h4>Group</h4>
+      <h5 id="bp_group">D</h5>
+    </div>
+
+    <div>
+      <h4>seq</h4>
+      <h5 id="bp_seq">130</h5>
+    </div>
+    <div>
+      <h4>Class</h4>
+      <h5 id="bp_class">First</h5>
+    </div>
+
+    <div>
+      <h4>Services</h4>
+      <h5 id="bp_svcs">VegMeal</h5>
+    </div>
+
+    <div>
+      <h4>Notes</h4>
+      <h5 id="bp_notes">SSSS</h5>
+    </div>
+  </section>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+  <symbol id="indigo" viewBox="0 0 80 17">
+<g transform="translate(0,27) scale(0.02,-0.02)"
+fill="#000080" stroke="none">
+<path d="M1567 740 c-98 -25 -182 -95 -225 -189 -21 -44 -26 -71 -27 -131 0
+-132 70 -241 190 -296 71 -33 147 -40 223 -20 146 37 229 137 240 288 l5 68
+-157 0 -156 0 0 -40 0 -40 110 0 c104 0 110 -1 110 -20 0 -30 -27 -91 -53
+-119 -60 -65 -197 -91 -282 -52 -51 23 -118 98 -133 149 -28 91 -9 180 52 249
+49 56 104 82 174 83 60 0 104 -16 167 -61 l45 -33 31 30 30 29 -33 28 c-78 67
+-215 101 -311 77z"/>
+<path d="M40 420 l0 -320 40 0 40 0 0 320 0 320 -40 0 -40 0 0 -320z"/>
+<path d="M970 520 c0 -238 -5 -264 -53 -309 -16 -15 -43 -25 -71 -28 -143 -17
+-219 143 -115 243 27 26 37 29 92 29 34 0 75 -4 90 -9 28 -8 28 -8 25 30 -3
+36 -6 39 -48 52 -97 29 -208 -11 -255 -92 -31 -54 -34 -149 -6 -211 65 -144
+291 -166 378 -36 38 56 43 96 43 329 l0 222 -40 0 -40 0 0 -220z"/>
+<path d="M313 529 c-48 -14 -98 -69 -112 -122 -6 -25 -11 -105 -11 -176 l0
+-131 39 0 40 0 3 151 3 151 33 29 c38 34 93 39 131 13 41 -29 51 -72 51 -214
+l0 -130 35 0 35 0 0 155 c0 171 -5 193 -60 238 -50 43 -119 56 -187 36z"/>
+<path d="M2161 530 c-51 -12 -112 -60 -139 -110 -19 -37 -23 -56 -20 -111 7
+-124 91 -202 217 -203 90 -1 154 31 195 97 107 174 -48 375 -253 327z m167
+-113 c34 -35 37 -42 37 -97 0 -55 -3 -62 -37 -96 -31 -32 -44 -38 -90 -41 -65
+-5 -113 18 -140 68 -36 67 -17 148 44 188 27 18 44 21 91 18 51 -3 62 -8 95
+-40z"/>
+<path d="M1150 315 l0 -215 40 0 40 0 0 215 0 215 -40 0 -40 0 0 -215z"/>
+</g>
+</symbol>
+</svg>
+  </body>
+</html>

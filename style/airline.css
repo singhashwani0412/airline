@@ -1,0 +1,5 @@
+body {background-color: powderblue;}
+rect   {fill: salmon;stroke:blue;r:10;}
+text   {font: bold 10px sans-serif;}
+circle.filled   {fill: skyblue;stroke:blue;r:10;}
+circle.empty   {fill: white;stroke:blue;r:10;}

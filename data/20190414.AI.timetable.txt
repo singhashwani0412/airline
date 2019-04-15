@@ -1,0 +1,1018 @@
+ORIGIN	DESTINATION	Flight Number	FREQ	DEPARTURE	ARRIVAL	AIRCRAFT	STOPS
+Abu Dhabi	Mumbai	AI 0946	1234567	1:35	5:50	A-320	 
+Agartala	Kolkata	AI 0744	1234567	11:25	12:25	A-319	 
+Agartala	Kolkata	AI 0746	1234567	19:45	20:30	A-319	 
+Agatti	Bengaluru	9I 0506	.2.....	9:30	12:50	ATR-72	1
+Agatti	Bengaluru	9I 0506	..3....	12:15	18:00	ATR-72	1
+Agatti	Bengaluru	9I 0506	1..4567	13:45	18:00	ATR-72	1
+Agatti	Kochi	9I 0506	.2.....	9:30	10:50	ATR-72	 
+Agatti	Kochi	9I 0506	..3....	12:15	13:35	ATR-72	 
+Agatti	Kochi	9I 0506	1..4567	13:45	15:20	ATR-72	 
+Agra	Jaipur	9I 0688	12.4.6.	11:30	13:25	ATR-72	 
+Agra	Khajuraho	AI 0406	1.3..6.	13:55	14:40	A-319	 
+Ahmedabad	Allahabad	AI 0697	..3..6.	14:40	16:20	A-320	 
+Ahmedabad	Bengaluru	AI 0590	1234567	3:05	5:25	A-319	 
+Ahmedabad	Chennai	AI 0982	1...5..	6:50	9:10	A-320	 
+Ahmedabad	Delhi	AI 0018	1234567	7:10	8:45	A-321	 
+Ahmedabad	Delhi	AI 0011	1234567	18:50	20:30	A-321	 
+Ahmedabad	Delhi	AI 0014	1234567	22:20	23:55	A-320	 
+Ahmedabad	Hyderabad	9I 0872	123456	11:20	14:50	ATR-72	1
+Ahmedabad	Kuwait	AI 0981	...4..7	20:55	22:25	A-320	 
+Ahmedabad	London	AI 0175	......7	7:00	11:05	B787	 
+Ahmedabad	London	AI 0171	1.3.5..	7:05	11:05	B787	 
+Ahmedabad	Mumbai	AI 0030	1234567	4:00	5:15	B787	 
+Ahmedabad	Mumbai	AI 0614	1234567	7:25	8:40	A-320	 
+Ahmedabad	Mumbai	AI 0922	.2.....	16:00	17:25	A-320	 
+Ahmedabad	Mumbai	AI 0985	1234567	19:10	20:40	A-321	 
+Ahmedabad	Muscat	AI 0985	1234567	19:10	23:25	A-321	1
+Ahmedabad	Nasik	9I 0872	123456	11:20	12:35	ATR-72	 
+Aizawl	Imphal	AI 0715	......7	12:15	13:00	A-319	 
+Aizawl	Kolkata	AI 0715	......7	12:15	14:45	A-319	1
+Aizawl	Kolkata	AI 0715	....5..	14:30	15:40	A-319	 
+Aizawl	Kolkata	AI 0712	1234...	14:40	15:45	A-319	 
+Aizawl	Kolkata	AI 0712	.....6.	14:55	16:05	A-319	 
+Najaf	Delhi	AI 0902	1..4...	18:00	0:45+1	A-320	 
+Allahabad	Ahmedabad	AI 0698	..3..6.	11:45	13:50	A-320	 
+Allahabad	Delhi	9I 0604	1234567	17:05	19:00	ATR-72	 
+Allahabad	Delhi	AI 0404	.23.567	17:10	18:30	A-320	 
+Allahabad	Kolkata	AI 0768	.2..5.7	12:05	14:05	A-320	 
+Amritsar	Birmingham	AI 0113	1.3...7	10:30	17:15	B787	1
+Amritsar	Birmingham	AI 0117	.2.4.6.	13:55	17:15	B787	 
+Amritsar	Delhi	AI 0454	1234567	6:50	7:55	A-320	 
+Amritsar	Delhi	9I 0616	1234.67	9:00	10:15	ATR-72	 
+Amritsar	Delhi	AI 0118	.3.5.7	9:15	10:30	B787	 
+Amritsar	Delhi	AI 0113	1.3...7	10:30	11:45	B787	 
+Amritsar	Delhi	AI 0462	12.4...	14:45	15:50	B787	 
+Amritsar	Delhi	AI 0115	1234567	19:00	20:10	A-320	 
+Amritsar	Mumbai	AI 0650	.....67	17:50	20:55	A-320	 
+Amritsar	Nanded	AI 0815	.....67	10:55	13:10	A-320	 
+Aurangabad	Delhi	AI 0442	1.3.5.7	17:20	19:10	A-319	 
+Aurangabad	Delhi	AI 0442	.2.4.6.	18:40	20:25	A-319	 
+Aurangabad	Mumbai	AI 0441	1234567	20:20	21:30	A-319	 
+Bagdogra	Delhi	AI 0880	1234567	13:55	16:15	A-320	 
+Bagdogra	Kolkata	AI 0722	..3.5.7	15:40	16:45	A-319	 
+Bahrain	Delhi	AI 0940	1....6.	23:00	5:00+1	A-319	 
+Bahrain	Delhi	AI 0940	.2.4...	23:00	5:00+1	A-321	 
+Bangkok	Bengaluru	AI 0339	1.3.5.7	5:40	8:25	A-320	 
+Bangkok	Delhi	AI 0333	1234567	8:50	12:05	B787	 
+Bangkok	Delhi	AI 0335	.23.5..	21:05	0:10+1	A-320	 
+Bangkok	Delhi	AI 0335	......7	21:20	0:10+1	A-320	 
+Bangkok	Delhi	AI 0335	1..4.6.	21:25	0:10+1	A-320	 
+Bangkok	Kolkata	AI 0337	.2.4.6.	5:40	7:00	A-320	 
+Bangkok	Mumbai	AI 0331	1234567	20:30	23:15	B787	 
+Belgaum	Bengaluru	9I 0514	.23..6.	20:20	22:10	ATR-72	 
+Bengaluru	Agatti	9I 0505	.2.....	5:55	9:00	ATR-72	1
+Bengaluru	Agatti	9I 0505	..3....	7:55	11:40	ATR-72	1
+Bengaluru	Agatti	9I 0505	1..4567	9:00	12:50	ATR-72	1
+Bengaluru	Ahmedabad	AI 0589	1234567	0:30	2:35	A-319	 
+Bengaluru	Bangkok	AI 0338	1.3.5.7	13:10	18:30	A-320	 
+Bengaluru	Belgaum	9I 0513	.23..6.	18:30	19:55	ATR-72	 
+Bengaluru	Bhubaneswar	AI 0776	1234567	5:50	10:20	A-320	1
+Bengaluru	Chennai	AI 0564	1234567	13:20	14:05	A-319	 
+Bengaluru	Coimbatore	9I 0511	.2.....	19:30	20:30	ATR-72	 
+Bengaluru	Delhi	AI 0804	.2.....	5:45	8:45	A-320	 
+Bengaluru	Delhi	AI 0804	1.34567	6:10	8:55	A-320	 
+Bengaluru	Delhi	AI 0501	1.34567	13:20	16:10	A-320	 
+Bengaluru	Delhi	AI 0503	1.34567	17:00	19:45	A-320	 
+Bengaluru	Delhi	AI 0503	.2.....	17:00	19:50	A-320	 
+Bengaluru	Delhi	AI 0087	1......	21:05	23:55	A-320	 
+Bengaluru	Delhi	AI 0173	0.234567	21:10	23:55	A-320	 
+Bengaluru	Dubai	AI 0993	.2.4.67	18:00	21:45	A-319	1
+Bengaluru	Goa	AI 0993	.2.4.67	18:00	19:10	A-319	 
+Bengaluru	Guwahati	AI 0727	1..45.7	13:40	16:45	A-319	 
+Bengaluru	Hubli	AI 0507	.2.....	12:00	12:40	A-319	 
+Bengaluru	Hubli	AI 0507	..3....	13:40	14:20	A-319	 
+Bengaluru	Hubli	AI 0507	.....6.	13:40	14:20	A-319	 
+Bengaluru	Hubli	9I 0509	1..45.7	18:30	19:50	ATR-72	 
+Bengaluru	Hyderabad	AI 0776	1234567	5:50	12:25	A-320	2
+Bengaluru	Hyderabad	AI 0516	.2.....	6:50	8:00	A-319	 
+Bengaluru	Hyderabad	AI 0516	1.34567	8:15	9:15	A-319	 
+Bengaluru	Hyderabad	AI 0977	1.3.5..	18:00	19:00	A-319	 
+Bengaluru	Kochi	9I 0505	.2.....	5:55	7:15	ATR-72	 
+Bengaluru	Kochi	9I 0505	..3....	7:55	9:20	ATR-72	 
+Bengaluru	Kochi	9I 0505	1..4567	9:00	10:20	ATR-72	 
+Bengaluru	Kochi	AI 0587	12.4567	22:00	23:00	A-319	 
+Bengaluru	Kolhapur	9I 0536	.2.....	15:55	17:25	ATR-72	 
+Bengaluru	Kolkata	AI 0776	1234567	5:50	8:20	A-320	 
+Bengaluru	Kolkata	AI 0772	.2.....	13:10	15:30	A-319	 
+Bengaluru	London	AI 0177	.2.4.6.	5:40	11:05	B787	 
+Bengaluru	Male	AI 0265	1.34567	17:00	18:25	A-320	 
+Bengaluru	Mumbai	AI 0639	..3....	6:45	8:25	A-319	 
+Bengaluru	Mumbai	AI 0640	12.4567	6:45	8:25	A-319	 
+Bengaluru	Mumbai	AI 0604	1...5.7	8:50	10:30	A-320	 
+Bengaluru	Mumbai	AI 0604	.2.4.6.	8:50	10:35	A-320	 
+Bengaluru	Mumbai	AI 0507	..3....	13:40	16:10	A-319	1
+Bengaluru	Mumbai	AI 0608	1.34567	17:25	19:00	A-319	 
+Bengaluru	Mumbai	AI 0610	1234567	19:10	21:00	A-319	 
+Bengaluru	Mumbai	AI 0608	.2.....	19:20	20:50	A-319	 
+Bengaluru	Muscat	AI 0977	1.3.5..	18:00	22:05	A-319	1
+Bengaluru	San Francisco	AI 0173	0.234567	21:10	6:00	A-320	1
+Bengaluru	Thiruvananthapuram	AI 0583	.2.....	7:30	8:40	A-319	 
+Bhatinda	Delhi	9I 0622	12.4...	11:10	12:50	ATR-72	 
+Bhatinda	Delhi	9I 0640	.....6.	11:10	12:50	ATR-72	 
+Bhatinda	Jammu	9I 0612	1234.67	10:55	11:55	ATR-72	 
+Bhavnagar	Mumbai	9I 0652	1.3.5.7	19:40	21:35	ATR-72	 
+Bhavnagar	Mumbai	9I 0652	.2.4.6.	21:45	23:00	ATR-72	 
+Bhopal	Delhi	AI 0436	1234567	8:00	9:25	A-321	 
+Bhopal	Delhi	AI 0438	1234567	22:00	23:25	A-320	 
+Bhopal	Jaipur	9I 0684	1234567	20:00	21:15	ATR-72	 
+Bhopal	Mumbai	AI 0634	1234567	8:05	9:30	A-319	 
+Bhopal	Mumbai	AI 0632	1234567	21:50	23:25	A-319	 
+Bhopal	Raipur	9I 0683	1234567	15:45	17:15	ATR-72	 
+Bhubaneswar	Delhi	AI 0078	1..4...	9:50	12:05	A-320	 
+Bhubaneswar	Delhi	AI 0078	.23.567	9:50	12:05	A-320	 
+Bhubaneswar	Delhi	AI 0076	1234567	13:50	16:20	A-320	 
+Bhubaneswar	Delhi	AI 0474	1234567	21:35	23:45	A-320	 
+Bhubaneswar	Guwahati	AI 0780	1234567	15:10	18:10	A-320	1
+Bhubaneswar	Hyderabad	AI 0776	1234567	10:50	12:25	A-320	 
+Bhubaneswar	Kolkata	9I 0727	1234567	9:15	11:10	ATR-72	 
+Bhubaneswar	Kolkata	AI 0780	1234567	15:10	15:55	A-320	 
+Bhubaneswar	Mumbai	AI 0670	1.3.5.7	14:55	17:20	A-320	 
+Bhubaneswar	Raipur	9I 0719	1234567	14:00	17:20	ATR-72	1
+Bhubaneswar	Ranchi	9I 0719	1234567	14:00	15:15	ATR-72	 
+Bikaner	Delhi	9I 0834	1234567	14:35	15:45	ATR-72	 
+Bikaner	Jaipur	9I 0829	1234567	11:40	12:40	ATR-72	 
+Birmingham	Amritsar	AI 0118	.2.4.6.	18:45	7:45+1	B787	 
+Birmingham	Amritsar	AI 0114	1.3...7	20:30	13:45+1	B787	1
+Birmingham	Delhi	AI 0118	.2.4.6.	18:45	10:30+1	B787	1
+Birmingham	Delhi	AI 0114	1.3...7	20:30	9:55+1	B787	 
+Chandigarh	Delhi	9I 0832	1234.6.	7:25	8:25	ATR-72	 
+Chandigarh	Delhi	9I 0832	....5..	7:30	8:30	ATR-42	 
+Chandigarh	Delhi	AI 0464	1.3..6.	12:50	13:55	A-321	 
+Chandigarh	Delhi	AI 0464	.2.45..	12:50	13:55	A-319	 
+Chandigarh	Kullu	9I 0808	123456	9:40	10:25	ATR-72	 
+Chandigarh	Leh	AI 0458	.2...6.	10:15	11:10	A-319	 
+Chandigarh	Mumbai	AI 0622	12345..	15:30	18:10	A-320	 
+Chandigarh	Nanded	AI 0817	.23....	9:10	11:30	A-320	 
+Chandigarh	Pune	AI 0813	1..45..	9:15	11:40	A-320	 
+Chennai	Ahmedabad	AI 0981	...4..7	17:20	20:00	A-320	 
+Chennai	Bengaluru	AI 0563	1234567	16:10	17:20	A-319	 
+Chennai	Coimbatore	AI 0429	1234567	13:30	14:20	A-321	 
+Chennai	Coimbatore	9I 0553	1234567	20:05	21:40	ATR-72	 
+Chennai	Colombo	AI 0273	1234567	5:55	7:20	A-321	 
+Chennai	Delhi	AI 0440	1234567	6:10	8:55	A-321	 
+Chennai	Delhi	AI 0143	1234567	8:40	11:35	A-320	 
+Chennai	Delhi	AI 0430	1234567	9:55	13:00	A-320	 
+Chennai	Delhi	AI 0539	1234567	17:00	19:50	A-321	 
+Chennai	Delhi	AI 0043	1234567	21:05	23:55	A-320	 
+Chennai	Dubai	AI 0905	1234567	19:35	22:00	A-321	 
+Chennai	Goa	AI 0975	1.3.5..	18:15	19:35	A-320	 
+Chennai	Hyderabad	AI 0987	.2...6.	18:05	19:10	A-320	 
+Chennai	Hyderabad	AI 0545	12.4567	19:15	20:35	A-321	 
+Chennai	Hyderabad	AI 0545	..3....	20:40	22:00	A-321	 
+Chennai	Kochi	AI 0509	1234567	8:35	9:25	A-319	 
+Chennai	Kolkata	AI 0766	1234567	11:40	13:55	A-321	 
+Chennai	Kuwait	AI 0981	...4..7	17:20	22:25	A-320	1
+Chennai	Kuwait	AI 0987	.2...6.	18:05	22:25	A-320	1
+Chennai	Kuwait	AI 0975	1.3.5..	18:15	22:25	A-320	1
+Chennai	Madurai	9I 0559	1234567	9:00	10:20	ATR-72	 
+Chennai	Madurai	AI 0671	1.3.5.7	11:30	12:35	A-319	 
+Chennai	Madurai	9I 0551	1234567	15:55	17:20	ATR-72	 
+Chennai	Mumbai	AI 0569	1234567	6:20	8:10	A-319	 
+Chennai	Mumbai	AI 0672	1.3.5.7	14:55	16:50	A-319	 
+Chennai	Mumbai	AI 0093	1234567	21:35	23:20	A-319	 
+Chennai	Muscat	AI 0907	1234567	19:25	21:55	A-319	 
+Chennai	Paris	AI 0143	1234567	8:40	17:55	A-320	1
+Chennai	Port Blair	AI 0549	1234567	5:05	7:20	A-321	 
+Chennai	Port Blair	AI 0551	.2.45.7	10:30	12:40	A-320	 
+Chennai	Sharjah	AI 0967	1234567	18:25	23:05	A-320	1
+Chennai	Singapore	AI 0346	1234567	11:35	18:30	A-320	 
+Chennai	Thiruvananthapuram	AI 0967	1234567	18:25	19:30	A-320	 
+Chennai	Tiruchirapalli	9I 0557	1234567	5:45	6:45	ATR-72	 
+Chennai	Tiruchirapalli	9I 0555	1234567	12:45	13:45	ATR-72	 
+Chicago	Delhi	AI 0126	1234567	13:30	15:15+1	B777-ER	 
+Chicago	Hyderabad	AI 0126	1234567	13:30	19:25+1	B777-ER	1
+Coimbatore	Bengaluru	9I 0512	.2.....	21:00	21:55	ATR-72	 
+Coimbatore	Chennai	AI 0539	1234567	15:05	16:10	A-321	 
+Coimbatore	Chennai	9I 0554	1234567	22:05	23:15	ATR-72	 
+Coimbatore	Delhi	AI 0548	1234567	1:00	4:00	A-320	 
+Coimbatore	Delhi	AI 0539	1234567	15:05	19:50	A-321	1
+Coimbatore	Mumbai	AI 0658	1.3.5.7	13:40	15:30	A-319	 
+Colombo	Chennai	AI 0274	12.4567	17:05	18:25	A-321	 
+Colombo	Chennai	AI 0274	..3....	18:20	19:30	A-321	 
+Colombo	Delhi	AI 0284	..34567	3:00	6:10	A-320	 
+Colombo	Delhi	AI 0282	1234567	8:20	11:50	A-321	 
+Colombo	Varanasi	AI 0272	....5.7	16:55	20:20	A-321	 
+Copenhagen	Delhi	AI 0158	.2.456.	19:50	7:35+1	B787	 
+Dammam	Delhi	AI 0914	1234567	3:45	10:05	A-320	 
+Dehra Dun	Delhi	9I 0646	1234567	7:45	8:45	ATR-72	 
+Dehra Dun	Delhi	9I 0610	1234567	19:00	20:20	ATR-72	 
+Dehra Dun	Pantnagar	9I 0824	..3..67	15:05	15:55	ATR-42	 
+Dehra Dun	Pantnagar	9I 0824	....5..	15:10	16:00	ATR-42	 
+Delhi	Agra	AI 0406	1.3..6.	10:15	13:20	A-319	1
+Delhi	Ahmedabad	AI 0019	1234567	5:00	6:30	A-321	 
+Delhi	Ahmedabad	AI 0010	1234567	16:40	18:05	A-321	 
+Delhi	Ahmedabad	AI 0013	1234567	19:45	21:30	A-320	 
+Delhi	Najaf	AI 0901	1..4...	13:55	17:00	A-320	 
+Delhi	Allahabad	AI 0403	.23.567	9:50	11:10	A-320	 
+Delhi	Allahabad	9I 0603	1234567	14:55	16:40	ATR-72	 
+Delhi	Amritsar	AI 0453	1234567	5:00	6:10	A-320	 
+Delhi	Amritsar	9I 0615	1234.67	7:05	8:35	ATR-72	 
+Delhi	Amritsar	AI 0461	1.3...7	8:05	9:15	B787	 
+Delhi	Amritsar	AI 0117	.2.4.6.	11:20	12:25	B787	 
+Delhi	Amritsar	AI 0114	1.2.4.	12:40	13:45	B787	 
+Delhi	Amritsar	AI 0016	1.34.6.	16:55	18:20	A-320	 
+Delhi	Amritsar	AI 0016	.2..5.7	17:05	18:20	A-320	 
+Delhi	Aurangabad	AI 0441	1234567	17:50	19:35	A-319	 
+Delhi	Bagdogra	AI 0879	1234567	11:20	13:15	A-320	 
+Delhi	Bahrain	AI 0939	1....6.	19:50	21:55	A-319	 
+Delhi	Bahrain	AI 0939	.2.4...	19:50	21:55	A-321	 
+Delhi	Bangkok	AI 0332	1234567	13:45	19:20	B787	 
+Delhi	Bangkok	AI 0334	1234567	23:00	4:40+1	A-320	 
+Delhi	Bengaluru	AI 0803	1.34567	6:10	8:55	A-320	 
+Delhi	Bengaluru	AI 0506	1.34567	9:45	12:30	A-320	 
+Delhi	Bengaluru	AI 0506	.2.....	9:45	12:40	A-320	 
+Delhi	Bengaluru	AI 0088	..3....	17:40	20:25	A-320	 
+Delhi	Bengaluru	AI 0174	12.4567	17:45	20:25	A-320	 
+Delhi	Bengaluru	AI 0504	1234567	20:30	23:15	A-320	 
+Delhi	Bhatinda	9I 0621	12.4...	9:25	10:45	ATR-72	 
+Delhi	Bhatinda	9I 0639	.....6.	9:25	10:45	ATR-72	 
+Delhi	Bhopal	AI 0435	1234567	5:55	7:20	A-321	 
+Delhi	Bhopal	AI 0437	1234567	20:00	21:20	A-320	 
+Delhi	Bhubaneswar	AI 0077	1..4...	7:10	9:20	A-320	 
+Delhi	Bhubaneswar	AI 0077	.23.567	7:10	9:20	A-320	 
+Delhi	Bhubaneswar	AI 0075	1234567	11:05	13:10	A-320	 
+Delhi	Bhubaneswar	AI 0473	1..4...	18:40	21:00	A-320	 
+Delhi	Bhubaneswar	AI 0473	.23.567	19:00	21:00	A-320	 
+Delhi	Bikaner	9I 0833	1234567	9:45	11:15	ATR-72	 
+Delhi	Birmingham	AI 0117	.2.4.6.	11:20	17:15	B787	1
+Delhi	Birmingham	AI 0113	1.3...7	13:15	17:15	B787	 
+Delhi	Chandigarh	9I 0831	1234.6.	5:55	7:00	ATR-72	 
+Delhi	Chandigarh	9I 0831	....5..	6:05	7:05	ATR-42	 
+Delhi	Chandigarh	AI 0463	1.3..6.	11:15	12:10	A-321	 
+Delhi	Chandigarh	AI 0463	.2.45..	11:15	12:10	A-319	 
+Delhi	Chennai	AI 0439	1234567	6:05	8:55	A-320	 
+Delhi	Chennai	AI 0429	1234567	9:45	12:40	A-321	 
+Delhi	Chennai	AI 0142	1234567	12:30	15:15	A-320	 
+Delhi	Chennai	AI 0042	1234567	17:20	20:00	A-320	 
+Delhi	Chennai	AI 0540	1234567	20:40	23:35	A-321	 
+Delhi	Chicago	AI 0127	1234567	2:00	6:30	B777-ER	 
+Delhi	Coimbatore	AI 0429	1234567	9:45	14:20	A-321	1
+Delhi	Coimbatore	AI 0547	1234567	21:15	0:30+1	A-320	 
+Delhi	Colombo	AI 0281	12.4567	12:30	16:05	A-321	 
+Delhi	Colombo	AI 0281	..3....	13:40	17:20	A-321	 
+Delhi	Colombo	AI 0283	.23456.	22:25	2:00+1	A-320	 
+Delhi	Copenhagen	AI 0157	.2.456.	14:00	17:50	B787	 
+Delhi	Dammam	AI 0913	1234567	0:20	2:30	A-320	 
+Delhi	Dehra Dun	9I 0645	1234567	6:20	7:20	ATR-72	 
+Delhi	Dehra Dun	9I 0609	1234567	17:20	18:30	ATR-72	 
+Delhi	Dharamshala	9I 0713	....5..	10:15	12:00	ATR-72	 
+Delhi	Dharamshala	9I 0713	1234.67	10:55	12:40	ATR-72	 
+Delhi	Dubai	AI 0933	1234567	5:10	12:30	B787	1
+Delhi	Dubai	AI 0995	1234567	20:25	22:45	B787	 
+Delhi	Durgapur	AI 0755	1..45.7	5:45	7:50	A-319	 
+Delhi	Frankfurt	AI 0121	1234567	13:35	18:00	B787	 
+Delhi	Gaya	AI 0235	..3....	7:10	9:00	A-320	 
+Delhi	Gaya	AI 0433	1234567	12:00	13:40	A-319	 
+Delhi	Goa	AI 0156	1234567	10:55	13:15	A-321	 
+Delhi	Goa	AI 0883	1234567	22:00	0:35+1	A-320	 
+Delhi	Gorakhpur	9I 0809	1234567	13:20	15:20	ATR-72	 
+Delhi	Guwahati	AI 0889	1.3456.	9:30	12:10	A-321	 
+Delhi	Guwahati	AI 0889	.2....7	9:30	14:05	A-321	1
+Delhi	Guwahati	AI 0891	1234567	16:15	18:45	A-320	 
+Delhi	Gwalior	9I 0628	..3.5.7	11:35	12:30	ATR-72	 
+Delhi	Hong Kong	AI 0310	.2.4.67	23:15	6:30+1	B787	 
+Delhi	Hong Kong	AI 0314	1.3.5..	23:15	6:30+1	B787	 
+Delhi	Hyderabad	AI 0560	1234567	7:05	9:10	B787	 
+Delhi	Hyderabad	AI 0542	1234567	9:45	11:55	A-321	 
+Delhi	Hyderabad	AI 0544	.23.5.7	13:05	15:15	A-320	 
+Delhi	Hyderabad	AI 0104	1..4.6	13:15	15:15	A-320	 
+Delhi	Hyderabad	AI 0126	1234567	17:15	19:25	B777-ER	 
+Delhi	Hyderabad	AI 0839	1234567	21:30	23:45	A-321	 
+Delhi	Imphal	AI 0889	1.3456.	9:30	13:45	A-321	1
+Delhi	Imphal	AI 0889	.2....7	9:30	12:10	A-321	 
+Delhi	Indore	9I 0628	..3.5.7	11:35	14:25	ATR-72	1
+Delhi	Indore	AI 0636	1234567	15:05	16:30	A-319	 
+Delhi	Jabalpur	9I 0617	1234567	15:35	17:25	ATR-72	 
+Delhi	Jaipur	AI 0491	1234567	12:00	12:55	A-321	 
+Delhi	Jaipur	9I 0643	1234567	18:45	19:45	ATR-72	 
+Delhi	Jammu	9I 0613	1234567	7:05	9:00	ATR-72	 
+Delhi	Jammu	AI 0821	1234567	10:50	12:20	A-319	 
+Delhi	Jeddah	AI 0991	.2.4.6.	16:20	19:45	B777-ER	 
+Delhi	Jodhpur	AI 0475	1234567	12:55	14:15	A-321	 
+Delhi	Kabul	AI 0243	.2.4.67	12:35	13:45	A-320	 
+Delhi	Kathmandu	AI 0213	1234567	7:40	9:30	A-320	 
+Delhi	Kathmandu	AI 0215	1234567	12:50	14:35	A-320	 
+Delhi	Khajuraho	AI 0406	1.3..6.	10:15	14:40	A-319	2
+Delhi	Kochi	AI 0933	1234567	5:10	8:00	B787	 
+Delhi	Kochi	AI 0512	.2.....	14:05	17:55	A-319	 
+Delhi	Kochi	AI 0512	1.34567	14:10	17:10	A-319	 
+Delhi	Kochi	AI 0048	1234567	18:05	21:10	A-321	 
+Delhi	Kolkata	AI 0401	1234567	6:50	9:00	B787	 
+Delhi	Kolkata	AI 0020	1234567	14:00	16:25	B787	 
+Delhi	Kolkata	AI 0764	1234567	16:55	19:10	A-320	 
+Delhi	Kolkata	AI 0022	1234567	20:15	22:20	A-321	 
+Delhi	Kullu	9I 0805	1234567	6:45	8:05	ATR-72	 
+Delhi	Leh	AI 0445	1234567	6:45	8:20	A-319	 
+Delhi	London	AI 0161	1234567	2:30	6:35	B787	 
+Delhi	London	AI 0111	1234567	14:45	18:55	B787	 
+Delhi	Lucknow	AI 0423	.2..5..	2:15	3:15	A-320	 
+Delhi	Lucknow	AI 0411	1.3.5.7	7:00	8:00	A-320	 
+Delhi	Lucknow	AI 0992	.2.4.6.	7:00	8:00	A-320	 
+Delhi	Lucknow	AI 0413	1..4...	9:50	10:50	A-320	 
+Delhi	Lucknow	AI 0431	1234567	12:20	13:25	A-320	 
+Delhi	Lucknow	AI 0811	1234567	18:30	19:40	A-319	 
+Delhi	Ludhiana	9I 0837	......7	7:00	8:15	ATR-72	 
+Delhi	Ludhiana	9I 0827	.....6.	14:10	15:25	ATR-72	 
+Delhi	Ludhiana	9I 0837	12.4...	14:10	15:25	ATR-72	 
+Delhi	Madrid	AI 0135	.2.4.6.	14:00	19:10	B787	 
+Delhi	Male	AI 0263	1234567	5:15	10:05	A-320	1
+Delhi	Melbourne	AI 0308	..3.5.7	13:15	7:00+1	B787	 
+Delhi	Milan	AI 0137	12.4.6.	14:20	18:30	B787	 
+Delhi	Mumbai	AI 0349	1.3.567	4:00	6:15	B787	 
+Delhi	Mumbai	AI 0887	1234567	7:00	9:05	A-320	 
+Delhi	Mumbai	AI 0665	1234567	8:00	10:10	A-321	 
+Delhi	Mumbai	AI 0678	.2.4.6.	8:40	10:50	A-320	 
+Delhi	Mumbai	AI 0678	1.3.5.7	9:00	11:10	A-320	 
+Delhi	Mumbai	AI 0865	1.3.5.7	10:00	12:15	A-320	 
+Delhi	Mumbai	9I 0628	..3.5.7	11:35	16:50	ATR-72	2
+Delhi	Mumbai	AI 0863	1.3.5.7	13:00	15:10	A-320	 
+Delhi	Mumbai	AI 0636	1234567	15:05	18:25	A-319	1
+Delhi	Mumbai	AI 0102	1234567	17:00	19:10	B777-ER	 
+Delhi	Mumbai	AI 0441	1234567	17:50	21:30	A-319	1
+Delhi	Mumbai	AI 0024	1234567	18:00	20:15	A-320	 
+Delhi	Mumbai	AI 0624	1234567	19:00	21:15	A-320	 
+Delhi	Mumbai	AI 0805	1.3.5.7	20:00	22:15	A-319	 
+Delhi	Mumbai	AI 0191	1.3.5.7	21:00	23:10	B777-ER	 
+Delhi	Mumbai	AI 0805	.2.4.6.	21:00	23:10	A-319	 
+Delhi	Mumbai	AI 0191	.2.4.6.	21:40	23:55	B777-ER	 
+Delhi	Mumbai	AI 0315	.2.4.6.	23:00	1:25+1	B787	 
+Delhi	Mumbai	AI 0317	1.3.5.7	23:00	1:25+1	B787	 
+Delhi	Muscat	AI 0973	1234567	19:20	21:25	A-321	 
+Delhi	Nagpur	AI 0469	1..4.6.	5:15	8:10	A-320	1
+Delhi	Nagpur	AI 0469	.23.5.7	5:55	7:40	A-320	 
+Delhi	Nanded	AI 0455	1..4...	15:20	17:05	A-319	 
+Delhi	New York	AI 0101	1234567	1:35	6:35	B777-ER	 
+Delhi	Newark	AI 0191	1.3.5.7	21:00	7:15	B777-ER	1
+Delhi	Newark	AI 0191	.2.4.6.	21:40	7:45	B777-ER	1
+Delhi	Osaka	AI 0314	1.3.5..	23:15	12:05+1	B787	1
+Delhi	Pantnagar	9I 0815	..3..67	12:10	13:10	ATR-42	 
+Delhi	Pantnagar	9I 0815	....5..	12:40	13:40	ATR-42	 
+Delhi	Paris	AI 0143	1234567	13:05	17:55	B787	 
+Delhi	Pathankot	9I 0835	12.4...	12:10	13:40	ATR-42	 
+Delhi	Patna	AI 0409	1234567	10:35	12:00	A-319	 
+Delhi	Patna	AI 0407	1234567	13:45	15:20	A-319	 
+Delhi	Patna	AI 0415	1234567	16:45	18:35	A-320	 
+Delhi	Port Blair	AI 0485	1..4.6.	5:30	10:05	A-320	1
+Delhi	Port Blair	AI 0485	.23.5.7	5:30	9:15	A-320	 
+Delhi	Port Blair	AI 0487	1...5..	6:55	11:50	A-320	1
+Delhi	Pune	AI 0851	1234567	4:55	7:05	A-320	 
+Delhi	Pune	AI 0849	1234567	16:10	18:10	A-320	 
+Delhi	Pune	AI 0853	1..4...	19:00	21:10	A-321	 
+Delhi	Pune	AI 0853	.23.567	19:05	21:10	A-321	 
+Delhi	Raipur	AI 0469	1..4.6.	5:15	7:05	A-320	 
+Delhi	Raipur	AI 0477	.23.5.7	5:25	7:00	A-319	 
+Delhi	Rajkot	AI 0497	1..4.6.	5:15	7:00	A-319	 
+Delhi	Rajkot	AI 0495	.2.....	16:55	18:40	A-319	 
+Delhi	Rajkot	AI 0495	..3.5.7	17:15	19:00	A-319	 
+Delhi	Ranchi	AI 0417	1234567	11:10	12:50	A-320	 
+Delhi	Riyadh	AI 0925	.2..5.7	3:00	5:30	A-320	 
+Delhi	Rome	AI 0123	..3.5.7	14:20	18:05	B787	 
+Delhi	San Francisco	AI 0173	1.34567	4:00	6:00	B777-LR	 
+Delhi	San Francisco	AI 0183	.2..5.7	18:10	20:30	B777-LR	 
+Delhi	Seoul	AI 0310	.2.4.67	23:15	12:05+1	B787	1
+Delhi	Shanghai	AI 0348	.2.4567	11:55	20:20	B787	 
+Delhi	Shimla	9I 0803	1234.67	7:35	9:00	ATR-42	 
+Delhi	Shimla	9I 0803	....5..	9:15	10:25	ATR-42	 
+Delhi	Singapore	AI 0382	1.3.5.7	13:15	21:45	B787	 
+Delhi	Singapore	AI 0382	.2.4.6.	13:15	21:25	B787	 
+Delhi	Singapore	AI 0380	1234567	23:00	7:00+1	B787	 
+Delhi	Srinagar	AI 0827	.2.4.67	7:25	8:40	A-320	 
+Delhi	Srinagar	AI 0825	1234567	10:15	11:45	A-321	 
+Delhi	Srinagar	AI 0821	1234567	10:50	13:35	A-319	1
+Delhi	Stockholm	AI 0167	..3.5.7	14:20	17:45	B787	 
+Delhi	Surat	AI 0493	1234567	5:15	7:05	A-319	 
+Delhi	Surat	AI 0489	1..4...	19:05	20:40	A-319	 
+Delhi	Surat	AI 0489	.23.567	19:35	20:55	A-319	 
+Delhi	Sydney	AI 0302	12.456.	13:15	7:10+1	B787	 
+Delhi	Tel Aviv	AI 0139	12.4.67	15:30	19:25	B787	 
+Delhi	Thiruvananthapuram	AI 0263	1234567	5:15	8:35	A-320	 
+Delhi	Thiruvananthapuram	AI 0048	1234567	18:05	22:30	A-321	1
+Delhi	Tirupati	AI 0542	1234567	9:45	13:35	A-321	1
+Delhi	Tokyo	AI 0306	.2..567	21:15	8:00+1	B787	 
+Delhi	Udaipur	AI 0471	1..4...	13:20	14:35	A-320	 
+Delhi	Udaipur	AI 0471	.23.567	13:20	14:35	A-320	 
+Delhi	Vadodara	AI 0819	1.3..6.	17:45	19:35	A-321	 
+Delhi	Vadodara	AI 0819	.2.45.7	17:45	19:35	A-319	 
+Delhi	Varanasi	AI 0406	1.3..6.	10:15	11:35	A-319	 
+Delhi	Varanasi	AI 0406	.2.45.7	10:15	11:35	A-321	 
+Delhi	Varanasi	AI 0433	1234567	12:00	14:50	A-319	1
+Delhi	Varanasi	AI 0427	1..4...	17:15	18:40	A-320	 
+Delhi	Varanasi	AI 0427	.2...6.	17:15	18:40	A-320	 
+Delhi	Vienna	AI 0153	1.3.5.7	14:55	18:45	B787	 
+Delhi	Vijayawada	AI 0459	1..45.7	6:00	8:15	A-320	 
+Delhi	Vijayawada	AI 0459	.23..6.	6:00	8:15	A-319	 
+Delhi	Vijayawada	AI 0544	.23.5.7	13:05	16:55	A-320	1
+Delhi	Vijayawada	AI 0467	1234567	17:45	20:00	A-320	 
+Delhi	Visakhapatnam	AI 0485	1..4.6.	5:30	7:40	A-320	 
+Delhi	Visakhapatnam	AI 0487	1...5..	6:55	9:05	A-320	 
+Delhi	Visakhapatnam	AI 0451	1234567	15:00	17:15	A-321	 
+Delhi	Washington	AI 0103	..3.5.7	1:15	6:15	B777-ER	 
+Delhi	Yangon	AI 0235	..3....	7:10	12:10	A-320	1
+Dhaka	Kolkata	AI 0229	1...56.	21:35	22:05	A-319	 
+Dhaka	Kolkata	AI 0229	.234..7	21:35	22:05	A-319	 
+Dharamshala	Delhi	9I 0714	....5..	12:25	14:00	ATR-72	 
+Dharamshala	Delhi	9I 0714	1234.67	13:05	14:50	ATR-72	 
+Dibrugarh	Kolkata	AI 0706	.2345.7	8:00	9:35	A-319	 
+Dimapur	Kolkata	AI 0710	1234..7	13:30	14:55	A-319	 
+Dimapur	Kolkata	AI 0710	....5..	15:25	16:50	A-319	 
+DIU	Mumbai	9I 0624	..3.5..	10:05	11:10	ATR-72	 
+DIU	Mumbai	9I 0624	1......	13:30	14:25	ATR-72	 
+Dubai	Bengaluru	AI 0994	.2.4.67	23:00	5:35+1	A-319	1
+Dubai	Chennai	AI 0906	1234567	23:10	5:00+1	A-321	 
+Dubai	Delhi	AI 0996	1234567	0:05	4:45	B787	 
+Dubai	Goa	AI 0994	.2.4.67	23:00	3:40+1	A-319	 
+Dubai	Hyderabad	AI 0952	1234567	0:30	5:30	A-321	 
+Dubai	Kochi	AI 0934	.2.....	13:30	18:50	B787	 
+Dubai	Kochi	AI 0934	1.34567	13:45	19:05	B787	 
+Dubai	Kozhikode	AI 0938	1...5..	13:45	19:10	A-321	 
+Dubai	Kozhikode	AI 0938	.23...7	14:45	20:10	A-321	 
+Dubai	Kozhikode	AI 0938	...4...	14:50	20:10	A-321	 
+Dubai	Kozhikode	AI 0938	.....6.	15:00	20:10	A-321	 
+Dubai	Mumbai	AI 0984	1234567	23:40	4:10+1	A-321	 
+Dubai	Visakhapatnam	AI 0952	1234567	0:30	7:15	A-321	1
+Durgapur	Delhi	AI 0756	1..45.7	8:25	10:40	A-319	 
+Durgapur	Hyderabad	AI 0518	..3.5.7	2:10	4:30	A-319	 
+Frankfurt	Delhi	AI 0120	1234567	21:30	9:35+1	B787	 
+Frankfurt	Mumbai	AI 0124	.23.5.7	16:20	4:15+1	B787	 
+Gaya	Delhi	AI 0433	1234567	14:15	16:55	A-319	1
+Gaya	Delhi	AI 0236	..3....	14:35	16:25	A-320	 
+Gaya	Kolkata	AI 0234	1....6.	11:25	12:35	A-319	 
+Gaya	Varanasi	AI 0433	1234567	14:15	14:50	A-319	 
+Gaya	Yangon	AI 0235	..3....	9:40	12:10	A-320	 
+Gaya	Yangon	AI 0233	....5..	12:05	15:05	A-319	 
+Goa	Bengaluru	AI 0994	1.3.57	4:30	5:35	A-319	 
+Goa	Chennai	AI 0976	.2.4.6.	7:25	9:00	A-320	 
+Goa	Delhi	AI 0884	1234567	1:15	3:40	A-320	 
+Goa	Delhi	AI 0843	1234567	13:55	16:40	A-321	 
+Goa	Dubai	AI 0993	.2.4.67	19:50	21:45	A-319	 
+Goa	Hyderabad	9I 0562	12345.7	13:20	16:55	ATR-72	1
+Goa	Kuwait	AI 0975	1.3.5..	20:25	22:25	A-320	 
+Goa	Mumbai	AI 0034	1234567	4:00	5:25	A-320	 
+Goa	Mumbai	AI 0684	1234567	7:00	8:10	A-320	 
+Goa	Mumbai	AI 0664	1.3.5.7	15:20	16:30	A-319	 
+Goa	Mumbai	AI 0662	1234567	18:45	20:05	A-319	 
+Goa	Mumbai	AI 0084	1234567	23:10	0:35+1	A-320	 
+Goa	Pune	9I 0562	12345.7	13:20	14:45	ATR-72	 
+Gorakhpur	Delhi	9I 0810	1234567	15:45	17:35	ATR-72	 
+Guwahati	Bengaluru	AI 0728	1..45.7	17:50	21:05	A-319	 
+Guwahati	Bengaluru	AI 0775	1234567	18:45	23:20	A-320	1
+Guwahati	Delhi	AI 0890	.2....7	14:40	18:40	A-321	1
+Guwahati	Delhi	AI 0890	1.3456.	16:05	18:40	A-321	 
+Guwahati	Delhi	AI 0892	1234567	19:20	22:10	A-320	 
+Guwahati	Imphal	AI 0889	1.3456.	12:45	13:45	A-321	 
+Guwahati	Imphal	AI 0890	.2....7	14:40	15:25	A-321	 
+Guwahati	Kolkata	9I 0732	.2.4.6.	9:50	11:30	ATR-72	 
+Guwahati	Kolkata	AI 0730	1....6.	11:40	13:00	A-319	 
+Guwahati	Kolkata	AI 0730	.2345.7	11:40	13:00	A-319	 
+Guwahati	Kolkata	9I 0734	1.3.5.7	11:45	13:15	ATR-72	 
+Guwahati	Kolkata	AI 0775	1234567	18:45	20:00	A-320	 
+Guwahati	Lilabari	9I 0733	1.3.5.7	7:45	10:00	ATR-72	1
+Guwahati	Pasighat	9I 0733	1.3.5.7	7:45	9:05	ATR-72	 
+Guwahati	Tezpur	9I 0731	.2.4.6.	7:45	8:30	ATR-72	 
+Gwalior	Delhi	9I 0627	..3.5.7	17:05	18:05	ATR-72	 
+Gwalior	Indore	9I 0628	..3.5.7	12:55	14:25	ATR-72	 
+Gwalior	Mumbai	9I 0628	..3.5.7	12:55	16:50	ATR-72	1
+Hong Kong	Delhi	AI 0315	.2.4.6.	18:00	21:30	B787	 
+Hong Kong	Delhi	AI 0317	1.3.5.7	18:00	21:30	B787	 
+Hong Kong	Mumbai	AI 0315	.2.4.6.	18:00	1:25+1	B787	1
+Hong Kong	Mumbai	AI 0317	1.3.5.7	18:00	1:25+1	B787	1
+Hong Kong	Osaka	AI 0314	.2.4.6.	7:45	12:05	B787	 
+Hong Kong	Seoul	AI 0310	1.3.5.7	7:45	12:05	B787	 
+Hubli	Bengaluru	AI 0508	.2...6.	17:05	18:20	A-319	 
+Hubli	Bengaluru	AI 0508	..3....	18:20	19:20	A-319	 
+Hubli	Bengaluru	9I 0510	1..45.7	20:20	22:10	ATR-72	 
+Hubli	Mumbai	AI 0507	..3....	15:00	16:10	A-319	 
+Hyderabad	Ahmedabad	9I 0871	123456	6:45	10:50	ATR-72	1
+Hyderabad	Bengaluru	AI 0978	.2.4.6	4:15	5:25	A-319	 
+Hyderabad	Bengaluru	AI 0515	.2.....	8:30	9:50	A-319	 
+Hyderabad	Bengaluru	AI 0515	1.34567	11:40	13:00	A-319	 
+Hyderabad	Bhubaneswar	AI 0780	1234567	13:05	14:35	A-320	 
+Hyderabad	Chennai	AI 0988	..3...7	7:50	9:00	A-320	 
+Hyderabad	Chennai	AI 0546	12.4567	21:15	22:15	A-321	 
+Hyderabad	Chennai	AI 0546	..3....	22:40	23:55	A-321	 
+Hyderabad	Chicago	AI 0127	1234567	21:00	6:30	B777-ER	1
+Hyderabad	Delhi	AI 0559	1234567	6:40	8:50	A-321	 
+Hyderabad	Delhi	AI 0543	1234567	10:10	12:15	B787	 
+Hyderabad	Delhi	AI 0541	1..4...	16:15	18:30	A-321	 
+Hyderabad	Delhi	AI 0541	.23.567	16:15	18:40	A-321	 
+Hyderabad	Delhi	AI 0840	1234567	19:05	21:25	A-320	 
+Hyderabad	Delhi	AI 0127	1234567	21:00	23:10	B777-ER	 
+Hyderabad	Dubai	AI 0951	1234567	20:10	22:25	A-321	 
+Hyderabad	Durgapur	AI 0517	.2.4.6.	23:05	1:15+1	A-319	 
+Hyderabad	Goa	9I 0561	12345.7	9:40	12:50	ATR-72	1
+Hyderabad	Guwahati	AI 0780	1234567	13:05	18:10	A-320	2
+Hyderabad	Jeddah	AI 0965	....5.7	17:55	21:15	B747	 
+Hyderabad	Jeddah	AI 0965	.2.....	19:45	23:05	B747	 
+Hyderabad	Kolhapur	9I 0875	1.34567	10:45	12:10	ATR-72	 
+Hyderabad	Kolhapur	9I 0875	.2.....	11:40	13:05	ATR-72	 
+Hyderabad	Kolkata	AI 0525	1234567	6:00	8:05	A-319	 
+Hyderabad	Kolkata	AI 0780	1234567	13:05	15:55	A-320	1
+Hyderabad	Kuwait	AI 0987	.2...6.	20:05	22:25	A-320	 
+Hyderabad	Mumbai	AI 0620	1234567	6:20	7:45	A-319	 
+Hyderabad	Mumbai	AI 0616	1234567	8:15	9:40	A-319	 
+Hyderabad	Mumbai	AI 0966	2.5.7	9:00	10:40	B747	 
+Hyderabad	Mumbai	AI 0618	1.3.5.7	17:00	18:35	A-319	 
+Hyderabad	Mumbai	AI 0051	1234567	22:00	23:30	A-319	 
+Hyderabad	Muscat	AI 0977	1.3.5..	19:40	22:05	A-319	 
+Hyderabad	Nasik	9I 0871	123456	6:45	8:30	ATR-72	 
+Hyderabad	Nasik	9I 0871	......7	6:45	8:30	ATR-72	 
+Hyderabad	Pune	9I 0561	12345.7	9:40	11:15	ATR-72	 
+Hyderabad	Pune	9I 0867	1234567	19:15	20:45	ATR-72	 
+Hyderabad	Shirdi	9I 0869	1234567	14:40	16:15	ATR-72	 
+Hyderabad	Tirupati	AI 0542	1234567	12:35	13:35	A-321	 
+Hyderabad	Tirupati	9I 0528	12.4567	18:45	19:45	ATR-72	 
+Hyderabad	Vijayawada	AI 0544	1..4.6.	16:05	16:55	A-320	 
+Hyderabad	Vijayawada	AI 0544	.23.5.7	16:05	16:55	A-320	 
+Hyderabad	Vijayawada	9I 0538	..3....	18:10	19:25	ATR-72	 
+Hyderabad	Vijayawada	9I 0528	12.4567	18:45	21:10	ATR-72	1
+Hyderabad	Visakhapatnam	AI 0952	1234567	6:10	7:15	A-321	 
+Hyderabad	Visakhapatnam	9I 0538	..3....	18:10	20:50	ATR-72	1
+Hyderabad	Visakhapatnam	9I 0528	12.4567	18:45	22:35	ATR-72	2
+Imphal	Aizawl	AI 0715	....5..	13:15	13:55	A-319	 
+Imphal	Delhi	AI 0890	1.3456.	14:20	18:40	A-321	1
+Imphal	Delhi	AI 0890	.2....7	15:55	18:40	A-321	 
+Imphal	Guwahati	AI 0889	.2....7	12:45	14:05	A-321	 
+Imphal	Guwahati	AI 0890	1.3456.	14:20	15:15	A-321	 
+Imphal	Kolkata	AI 0714	.234...	12:20	13:35	A-319	 
+Imphal	Kolkata	AI 0715	....5..	13:15	15:40	A-319	1
+Imphal	Kolkata	AI 0715	......7	13:35	14:45	A-319	 
+Imphal	Kolkata	AI 0714	.....6.	14:55	16:20	A-319	 
+Indore	Delhi	AI 0635	1234567	9:15	11:10	A-319	 
+Indore	Delhi	9I 0627	..3.5.7	15:15	18:05	ATR-72	1
+Indore	Gwalior	9I 0627	..3.5.7	15:15	16:40	ATR-72	 
+Indore	Mumbai	9I 0628	..3.5.7	14:50	16:50	ATR-72	 
+Indore	Mumbai	AI 0636	1234567	17:05	18:25	A-319	 
+Jabalpur	Delhi	9I 0618	1234567	17:50	19:35	ATR-72	 
+Jaipur	Agra	9I 0687	12.4.6.	10:00	11:00	ATR-72	 
+Jaipur	Bhopal	9I 0683	1234567	13:45	15:15	ATR-72	 
+Jaipur	Bikaner	9I 0830	1234567	13:10	14:10	ATR-72	 
+Jaipur	Delhi	AI 0492	1234567	13:30	14:30	A-321	 
+Jaipur	Delhi	9I 0644	1234567	20:15	21:10	ATR-72	 
+Jaipur	Jodhpur	AI 0646	.2.4.6.	13:55	15:00	A-320	 
+Jaipur	Kolkata	AI 0736	.2.4.6.	11:40	13:55	A-320	 
+Jaipur	Lucknow	9I 0691	1234567	5:55	7:30	ATR-72	 
+Jaipur	Mumbai	AI 0612	1.3.5.7	13:55	15:35	A-321	 
+Jaipur	Mumbai	AI 0646	.2.4.6.	13:55	17:45	A-320	1
+Jaipur	Raipur	9I 0683	1234567	13:45	17:15	ATR-72	1
+Jaipur	Udaipur	9I 0685	..3.5.7	10:00	11:00	ATR-72	 
+Jammu	Bhatinda	9I 0611	1234.67	9:25	10:30	ATR-72	 
+Jammu	Delhi	9I 0614	1234567	12:25	14:25	ATR-72	 
+Jammu	Delhi	AI 0822	1234567	15:45	17:10	A-319	 
+Jammu	Leh	AI 0450	1...5.7	10:15	11:20	A-319	 
+Jammu	Srinagar	AI 0821	1234567	13:00	13:35	A-319	 
+Jamnagar	Mumbai	AI 0648	1.3.5.7	12:50	13:55	A-319	 
+Jeddah	Delhi	AI 0992	1.3.5..	21:15	4:45+1	B777-ER	 
+Jeddah	Hyderabad	AI 0966	1..4.6.	23:15	7:10+1	B747	 
+Jeddah	Kochi	AI 0964	..3.5.7	23:15	7:05+1	B747	 
+Jeddah	Kochi	AI 1964	..3�.	1:20	9:30	B747	 
+Jeddah	Lucknow	AI 0992	1.3.5..	21:15	8:00+1	B777-ER	1
+Jeddah	Mumbai	AI 0932	.2.4.67	21:15	4:20+1	B777-ER	 
+Jeddah	Mumbai	AI 0966	1..4.6.	23:15	10:40+1	B747	1
+Jodhpur	Delhi	AI 0476	1234567	14:55	16:20	A-321	 
+Jodhpur	Jaipur	AI 0645	.2.4.6.	11:55	13:15	A-320	 
+Jodhpur	Mumbai	AI 0646	1.3.5.7	11:55	13:25	A-320	 
+Jodhpur	Mumbai	AI 0646	.2.4.6.	16:05	17:45	A-320	 
+Kabul	Delhi	AI 0244	.2.4.67	14:45	17:50	A-320	 
+Kathmandu	Delhi	AI 0214	1234567	10:25	11:45	A-320	 
+Kathmandu	Delhi	AI 0216	1234567	15:35	16:50	A-320	 
+Kathmandu	Kolkata	AI 0248	1....6.	16:20	17:15	A-319	 
+Kathmandu	Kolkata	AI 0248	.2.4...	16:20	17:15	A-319	 
+Khajuraho	Delhi	AI 0405	1.3..6.	15:15	18:25	A-319	1
+Khajuraho	Varanasi	AI 0405	1.3..6.	15:15	16:10	A-319	 
+Kochi	Agatti	9I 0505	.2.....	7:40	9:00	ATR-72	 
+Kochi	Agatti	9I 0505	..3....	10:20	11:40	ATR-72	 
+Kochi	Agatti	9I 0505	1..4567	11:30	12:50	ATR-72	 
+Kochi	Bengaluru	AI 0588	123.567	0:15	1:20	A-319	 
+Kochi	Bengaluru	9I 0506	.2.....	11:30	12:50	ATR-72	 
+Kochi	Bengaluru	9I 0506	1..4567	16:30	18:00	ATR-72	 
+Kochi	Bengaluru	9I 0506	..3....	16:30	18:00	ATR-72	 
+Kochi	Chennai	AI 0510	1.34567	17:40	18:55	A-319	 
+Kochi	Chennai	AI 0510	.2.....	18:25	18:50	A-319	 
+Kochi	Delhi	AI 0466	12.4.6.	7:30	10:50	A-321	 
+Kochi	Delhi	AI 0466	..3.5.7	7:45	11:05	A-321	 
+Kochi	Delhi	AI 0511	1234567	10:00	13:20	A-319	 
+Kochi	Delhi	AI 0047	1234567	20:15	23:20	B787	 
+Kochi	Dubai	AI 0933	1234567	9:45	12:30	B787	 
+Kochi	Jeddah	AI 0963	1.34.6.	17:30	21:15	B747	 
+Kochi	Mumbai	AI 0682	1234567	8:15	10:15	A-319	 
+Kochi	Mumbai	AI 0055	1234567	20:10	22:20	A-320	 
+Kochi	Riyadh	AI 0923	1.3....	2:35	5:30	A-320	 
+Kochi	Thiruvananthapuram	AI 0048	1234567	21:50	22:30	A-321	 
+Kolhapur	Bengaluru	9I 0535	.2.....	13:35	15:30	ATR-72	 
+Kolhapur	Hyderabad	9I 0876	1.34567	12:35	14:00	ATR-72	 
+Kolhapur	Hyderabad	9I 0876	.2.....	17:50	19:15	ATR-72	 
+Kolkata	Agartala	AI 0743	1234567	9:55	10:50	A-319	 
+Kolkata	Agartala	AI 0745	1234567	18:10	19:10	A-319	 
+Kolkata	Aizawl	AI 0715	......7	10:25	11:40	A-319	 
+Kolkata	Aizawl	AI 0715	....5..	11:20	13:55	A-319	1
+Kolkata	Aizawl	AI 0711	1234...	13:00	14:05	A-319	 
+Kolkata	Aizawl	AI 0711	.....6.	13:05	14:20	A-319	 
+Kolkata	Allahabad	AI 0769	.2..5.7	14:40	16:30	A-320	 
+Kolkata	Bagdogra	AI 0721	..3.5.7	13:55	14:55	A-319	 
+Kolkata	Bangkok	AI 0336	.2.....	15:30	20:05	A-320	 
+Kolkata	Bangkok	AI 0336	...4.6.	15:30	20:15	A-320	 
+Kolkata	Bengaluru	AI 0771	.2.....	16:20	18:45	A-319	 
+Kolkata	Bengaluru	AI 0775	1234567	20:45	23:20	A-320	 
+Kolkata	Bhubaneswar	9I 0727	1234567	5:50	8:50	ATR-72	1
+Kolkata	Bhubaneswar	AI 0776	1234567	9:10	10:20	A-320	 
+Kolkata	Bhubaneswar	9I 0719	1234567	12:00	13:30	ATR-72	 
+Kolkata	Chennai	AI 0765	1234567	14:35	17:05	A-321	 
+Kolkata	Delhi	AI 0763	1234567	7:00	9:15	A-321	 
+Kolkata	Delhi	AI 0021	1234567	10:25	12:55	B787	 
+Kolkata	Delhi	AI 0701	1234567	17:30	19:50	B787	 
+Kolkata	Delhi	AI 0023	1234567	20:30	22:45	A-320	 
+Kolkata	Dhaka	AI 0230	1...56.	19:05	20:35	A-319	 
+Kolkata	Dhaka	AI 0230	.234..7	19:05	20:35	A-319	 
+Kolkata	Dibrugarh	AI 0705	.2345.7	5:55	7:25	A-319	 
+Kolkata	Dimapur	AI 0709	1234..7	11:20	12:55	A-319	 
+Kolkata	Dimapur	AI 0709	....5..	13:00	14:30	A-319	 
+Kolkata	Gaya	AI 0233	....5..	10:30	11:25	A-319	 
+Kolkata	Guwahati	9I 0731	.2.4.6.	5:55	7:25	ATR-72	 
+Kolkata	Guwahati	9I 0733	1.3.5.7	5:55	7:25	ATR-72	 
+Kolkata	Guwahati	AI 0729	1....6.	9:50	11:05	A-319	 
+Kolkata	Guwahati	AI 0729	.2345.7	9:50	11:05	A-319	 
+Kolkata	Guwahati	AI 0780	1234567	16:45	18:10	A-320	 
+Kolkata	Hyderabad	AI 0776	1234567	9:10	12:25	A-320	1
+Kolkata	Hyderabad	AI 0526	1234567	19:00	21:15	A-319	 
+Kolkata	Imphal	AI 0713	.234...	10:15	11:45	A-319	 
+Kolkata	Imphal	AI 0715	......7	10:25	13:00	A-319	1
+Kolkata	Imphal	AI 0715	....5..	11:20	12:40	A-319	 
+Kolkata	Imphal	AI 0713	.....6.	13:00	14:20	A-319	 
+Kolkata	Jaipur	AI 0737	.2.4.6.	8:20	11:05	A-320	 
+Kolkata	Kathmandu	AI 0247	1....6.	13:55	15:30	A-319	 
+Kolkata	Kathmandu	AI 0247	.2.4...	13:55	15:30	A-319	 
+Kolkata	Lilabari	9I 0733	1.3.5.7	5:55	10:00	ATR-72	2
+Kolkata	Mumbai	AI 0676	1.3.5.7	9:25	12:20	A-319	 
+Kolkata	Mumbai	AI 0773	1...56.	16:50	19:45	A-319	 
+Kolkata	Mumbai	AI 0773	.234..7	16:50	19:45	A-319	 
+Kolkata	Pasighat	9I 0733	1.3.5.7	5:55	9:05	ATR-72	1
+Kolkata	Port Blair	AI 0787	1234567	5:40	7:50	A-319	 
+Kolkata	Raipur	9I 0719	1234567	12:00	17:20	ATR-72	2
+Kolkata	Ranchi	9I 0727	1234567	5:50	7:25	ATR-72	 
+Kolkata	Ranchi	9I 0719	1234567	12:00	15:15	ATR-72	1
+Kolkata	Shillong	9I 0711	1234567	14:00	15:40	ATR-72	 
+Kolkata	Silchar	AI 0753	1....6.	5:50	7:00	A-319	 
+Kolkata	Silchar	AI 0753	.2345.7	5:50	7:00	A-319	 
+Kolkata	Tezpur	9I 0731	.2.4.6.	5:55	8:30	ATR-72	1
+Kolkata	Varanasi	AI 0422	.2.4...	14:30	15:30	A-321	 
+Kolkata	Yangon	AI 0227	1....6.	5:45	8:30	A-319	 
+Kolkata	Yangon	AI 0233	....5..	10:30	15:05	A-319	1
+Kozhikode	Dubai	AI 0937	1...5..	10:10	12:45	A-321	 
+Kozhikode	Dubai	AI 0937	.234.67	10:55	13:45	A-321	 
+Kozhikode	Mumbai	AI 0582	1234567	7:30	9:10	A-321	 
+Kozhikode	Sharjah	AI 0997	1234567	22:00	0:05+1	A-321	 
+Kullu	Chandigarh	9I 0807	123456	8:30	9:15	ATR-72	 
+Kullu	Delhi	9I 0806	......7	8:30	9:50	ATR-72	 
+Kullu	Delhi	9I 0806	123456	10:50	12:25	ATR-72	 
+Kuwait	Ahmedabad	AI 0982	1...5..	0:05	6:05	A-320	 
+Kuwait	Chennai	AI 0976	.2.4.6.	0:05	9:00	A-320	1
+Kuwait	Chennai	AI 0982	1...5..	0:05	9:10	A-320	1
+Kuwait	Chennai	AI 0988	..3...7	0:05	9:00	A-320	1
+Kuwait	Goa	AI 0976	.2.4.6.	0:05	6:35	A-320	 
+Kuwait	Hyderabad	AI 0988	..3...7	0:05	7:00	A-320	 
+Leh	Chandigarh	AI 0457	.2...6.	8:55	9:35	A-319	 
+Leh	Delhi	AI 0446	1234567	11:55	13:35	A-319	 
+Leh	Jammu	AI 0449	1...5.7	8:55	9:40	A-319	 
+Leh	Srinagar	AI 0448	..34...	8:55	9:35	A-319	 
+Lilabari	Guwahati	9I 0734	1.3.5.7	10:20	11:20	ATR-72	 
+Lilabari	Kolkata	9I 0734	1.3.5.7	10:20	13:15	ATR-72	1
+London	Ahmedabad	AI 0172	.2.4.6.	13:00	2:40+1	B787	 
+London	Ahmedabad	AI 0176	......7	13:00	2:40+1	B787	 
+London	Bengaluru	AI 0178	1.3.5..	13:00	4:00+1	B787	 
+London	Delhi	AI 0162	1234567	8:45	22:25	B787	 
+London	Delhi	AI 0112	1234567	21:30	11:20+1	B787	 
+London	Mumbai	AI 0130	1234567	13:30	4:00+1	B787	 
+Lucknow	Delhi	AI 0424	.2..5..	3:55	4:55	A-320	 
+Lucknow	Delhi	AI 0412	1234567	8:40	10:15	A-320	 
+Lucknow	Delhi	AI 0414	1..4...	11:30	12:25	A-320	 
+Lucknow	Delhi	AI 0432	1.3.5.7	14:05	15:30	A-320	 
+Lucknow	Delhi	AI 0991	.2.4.6.	14:05	15:10	A-320	 
+Lucknow	Delhi	AI 0812	1234567	20:15	21:35	A-319	 
+Lucknow	Jaipur	9I 0692	1234567	8:00	9:30	ATR-72	 
+Lucknow	Jeddah	AI 0991	.2.4.6.	14:05	19:45	A-320	1
+Lucknow	Mumbai	AI 0626	1.3.5.7	11:05	13:15	A-319	 
+Lucknow	Mumbai	AI 0696	.2.4.6.	17:05	19:15	A-319	 
+Lucknow	Varanasi	AI 0695	.2.4.6.	13:20	14:20	A-319	 
+Ludhiana	Delhi	9I 0838	......7	8:45	9:30	ATR-72	 
+Ludhiana	Delhi	9I 0828	.....6.	15:50	17:05	ATR-72	 
+Ludhiana	Delhi	9I 0838	12.4...	15:50	17:05	ATR-72	 
+Madrid	Delhi	AI 0136	.2.4.6.	20:40	10:05+1	B787	 
+Madurai	Chennai	9I 0560	1234567	10:45	12:05	ATR-72	 
+Madurai	Chennai	AI 0672	1.3.5.7	13:15	14:20	A-319	 
+Madurai	Chennai	9I 0552	1234567	17:45	19:30	ATR-72	 
+Madurai	Mumbai	AI 0672	1.3.5.7	13:15	16:50	A-319	1
+Male	Bengaluru	AI 0266	1.34567	10:55	13:20	A-320	 
+Male	Delhi	AI 0264	.2.....	16:35	22:35	A-320	1
+Male	Delhi	AI 0264	1..4567	19:15	1:05+1	A-320	1
+Male	Delhi	AI 0264	..3....	19:15	1:05+1	A-320	1
+Male	Thiruvananthapuram	AI 0264	.2.....	16:35	18:25	A-320	 
+Male	Thiruvananthapuram	AI 0264	1..4567	19:15	21:00	A-320	 
+Male	Thiruvananthapuram	AI 0264	..3....	19:15	20:55	A-320	 
+Mangalore	Mumbai	AI 0680	1.3.5.7	12:40	14:20	A-319	 
+Melbourne	Delhi	AI 0309	1..4.6.	10:45	17:40	B787	 
+Milan	Delhi	AI 0138	12.4.6.	20:00	7:45+1	B787	 
+Mumbai	Abu Dhabi	AI 0945	1234567	22:30	0:35+1	A-320	 
+Mumbai	Ahmedabad	AI 0031	1234567	1:35	2:50	B787	 
+Mumbai	Ahmedabad	AI 0986	1234567	5:30	6:45	A-320	 
+Mumbai	Ahmedabad	AI 0091	1234567	17:20	18:30	A-321	 
+Mumbai	Amritsar	AI 0649	.....67	7:15	10:05	A-320	 
+Mumbai	Aurangabad	AI 0442	1.3.5.7	15:30	16:45	A-319	 
+Mumbai	Aurangabad	AI 0442	.2.4.6.	17:00	18:10	A-319	 
+Mumbai	Bangkok	AI 0330	1234567	1:45	7:20	B787	 
+Mumbai	Bengaluru	AI 0603	12.4567	6:15	7:55	A-320	 
+Mumbai	Bengaluru	AI 0639	12.4567	9:15	11:10	A-319	 
+Mumbai	Bengaluru	AI 0640	..3....	10:40	12:30	A-319	 
+Mumbai	Bengaluru	AI 0607	1.3.5.7	16:40	18:30	A-319	 
+Mumbai	Bengaluru	AI 0508	..3....	16:50	19:20	A-319	1
+Mumbai	Bengaluru	AI 0607	.2.4.6.	16:50	18:40	A-319	 
+Mumbai	Bengaluru	AI 0609	1.34567	20:15	21:50	A-319	 
+Mumbai	Bengaluru	AI 0609	.2.....	21:30	23:05	A-319	 
+Mumbai	Bhavnagar	9I 0651	1.3.5.7	17:55	19:10	ATR-72	 
+Mumbai	Bhavnagar	9I 0651	.2.4.6.	20:05	21:20	ATR-72	 
+Mumbai	Bhopal	AI 0633	1234567	6:00	7:25	A-319	 
+Mumbai	Bhopal	AI 0631	1234567	19:40	21:00	A-319	 
+Mumbai	Bhubaneswar	AI 0669	1.3.5.7	12:00	14:25	A-320	 
+Mumbai	Chandigarh	AI 0621	12345..	5:40	8:30	A-320	 
+Mumbai	Chennai	AI 0570	1234567	5:55	8:05	A-319	 
+Mumbai	Chennai	AI 0671	1.3.5.7	9:00	10:55	A-319	 
+Mumbai	Chennai	AI 0094	1234567	18:30	20:25	A-319	 
+Mumbai	Coimbatore	AI 0657	1.3.5.7	11:05	13:00	A-319	 
+Mumbai	Delhi	AI 0864	1234567	7:00	9:10	A-320	 
+Mumbai	Delhi	AI 0635	1234567	7:05	11:10	A-319	1
+Mumbai	Delhi	AI 0806	1234567	8:00	10:15	A-321	 
+Mumbai	Delhi	AI 0348	.2.4567	8:15	10:30	B787	 
+Mumbai	Delhi	AI 0866	1234567	9:00	11:30	A-320	 
+Mumbai	Delhi	AI 0809	1234567	10:00	12:15	A-320	 
+Mumbai	Delhi	9I 0627	..3.5.7	12:45	18:05	ATR-72	2
+Mumbai	Delhi	AI 0677	1.3.5.7	13:00	15:15	A-320	 
+Mumbai	Delhi	AI 0442	1.3.5.7	15:30	19:10	A-319	1
+Mumbai	Delhi	AI 0687	1.3.5.7	16:00	18:15	A-320	 
+Mumbai	Delhi	AI 0144	1.3.5.7	17:00	19:10	B777-ER	 
+Mumbai	Delhi	AI 0442	.2.4.6.	17:00	20:25	A-319	1
+Mumbai	Delhi	AI 0144	.2.4.6	18:35	20:35	B777-ER	 
+Mumbai	Delhi	AI 0888	1234567	19:00	21:15	A-319	 
+Mumbai	Delhi	AI 0660	1234567	19:40	21:40	A-320	 
+Mumbai	Delhi	AI 0310	.2.4.67	20:00	22:05	B787	 
+Mumbai	Delhi	AI 0314	1.3.5..	20:00	22:05	B787	 
+Mumbai	Delhi	AI 0101	1234567	21:00	23:15	B777-ER	 
+Mumbai	DIU	9I 0623	..3.5..	8:35	9:40	ATR-72	 
+Mumbai	DIU	9I 0623	1......	12:05	13:05	ATR-72	 
+Mumbai	Dubai	AI 0983	1234567	19:50	21:55	A-321	 
+Mumbai	Frankfurt	AI 0125	.23.5.7	10:00	14:45	B787	 
+Mumbai	Goa	AI 0033	1234567	2:00	3:20	A-320	 
+Mumbai	Goa	AI 0083	1234567	5:05	6:20	A-320	 
+Mumbai	Goa	AI 0663	1.3.5.7	13:30	14:45	A-319	 
+Mumbai	Goa	AI 0661	1234567	16:50	18:00	A-319	 
+Mumbai	Goa	AI 0683	1234567	21:10	22:20	A-320	 
+Mumbai	Gwalior	9I 0627	..3.5.7	12:45	16:40	ATR-72	1
+Mumbai	Hong Kong	AI 0310	.2.4.67	20:00	6:30+1	B787	1
+Mumbai	Hong Kong	AI 0314	1.3.5..	20:00	6:30+1	B787	1
+Mumbai	Hubli	AI 0508	..3....	16:50	17:40	A-319	 
+Mumbai	Hyderabad	AI 0615	1234567	6:20	7:40	A-319	 
+Mumbai	Hyderabad	AI 0617	1.3.5.7	13:55	15:25	A-319	 
+Mumbai	Hyderabad	AI 0965	....5.7	15:00	16:25	B747	 
+Mumbai	Hyderabad	AI 0965	.2.....	16:50	18:15	B747	 
+Mumbai	Hyderabad	AI 0619	1234567	19:30	20:45	A-319	 
+Mumbai	Hyderabad	AI 0050	1234567	21:05	22:25	A-319	 
+Mumbai	Indore	AI 0635	1234567	7:05	8:25	A-319	 
+Mumbai	Indore	9I 0627	..3.5.7	12:45	14:45	ATR-72	 
+Mumbai	Jaipur	AI 0645	.2.4.6.	9:40	13:15	A-320	1
+Mumbai	Jaipur	AI 0611	1.3.5.7	11:35	13:15	A-321	 
+Mumbai	Jamnagar	AI 0647	1.3.5.7	11:00	12:10	A-319	 
+Mumbai	Jeddah	AI 0965	....5.7	15:00	21:15	B747	1
+Mumbai	Jeddah	AI 0931	1.3.5.7	16:50	19:45	B777-ER	 
+Mumbai	Jeddah	AI 0965	.2.....	16:50	23:05	B747	1
+Mumbai	Jodhpur	AI 0645	1.3.5.7	9:40	11:20	A-320	 
+Mumbai	Jodhpur	AI 0645	.2.4.6.	9:40	11:20	A-320	 
+Mumbai	Kochi	AI 0054	1234567	5:30	7:40	A-319	 
+Mumbai	Kochi	AI 0681	1234567	17:20	19:15	A-320	 
+Mumbai	Kolkata	AI 0675	1.3.5.7	6:10	8:45	A-319	 
+Mumbai	Kolkata	AI 0774	.234..7	20:30	23:15	A-319	 
+Mumbai	Kolkata	AI 0774	1...56.	20:50	23:15	A-319	 
+Mumbai	Kozhikode	AI 0581	1234567	7:05	8:55	A-321	 
+Mumbai	London	AI 0131	1234567	7:00	11:30	B787	 
+Mumbai	Lucknow	AI 0625	1.3.5.7	8:25	10:30	A-319	 
+Mumbai	Lucknow	AI 0695	.2.4.6.	10:30	12:35	A-319	 
+Mumbai	Madurai	AI 0671	1.3.5.7	9:00	12:35	A-319	1
+Mumbai	Mangalore	AI 0679	1.3.5.7	10:15	12:00	A-319	 
+Mumbai	Muscat	AI 0985	1234567	22:00	23:25	A-321	 
+Mumbai	Nagpur	AI 0627	1234567	5:50	7:20	A-319	 
+Mumbai	Nagpur	AI 0629	1234567	19:00	20:35	A-320	 
+Mumbai	New York	AI 0105	..3.5.7	1:00	6:55	B777-ER	 
+Mumbai	New York	AI 0101	1234567	21:00	6:35	B777-ER	1
+Mumbai	Newark	AI 0191	12.4.6.	1:30	7:15	B777-ER	 
+Mumbai	Newark	AI 0191	..3.5.7	2:00	7:45	B777-ER	 
+Mumbai	Osaka	AI 0314	1.3.5..	20:00	12:05+1	B787	2
+Mumbai	Raipur	AI 0651	1.3.5.7	10:05	11:50	A-321	 
+Mumbai	Raipur	AI 0651	.2.4.6.	10:05	11:50	A-321	 
+Mumbai	Rajkot	AI 0655	1.3.5.7	15:55	17:05	A-319	 
+Mumbai	Riyadh	AI 0921	.2.4.6.	10:30	12:30	A-320	 
+Mumbai	Riyadh	AI 0921	1.3.5.7	12:30	14:30	A-320	 
+Mumbai	Seoul	AI 0310	.2.4.67	20:00	12:05+1	B787	2
+Mumbai	Shanghai	AI 0348	.2.4567	8:15	20:20	B787	1
+Mumbai	Shirdi	9I 0653	......7	8:35	9:30	ATR-72	 
+Mumbai	Shirdi	9I 0653	1......	15:15	16:10	ATR-72	 
+Mumbai	Singapore	AI 0342	1234567	23:50	7:45+1	A-320	 
+Mumbai	Surat	9I 0649	..3.5.7	5:50	6:45	ATR-72	 
+Mumbai	Thiruvananthapuram	AI 0667	1234567	17:25	19:40	A-319	 
+Mumbai	Udaipur	AI 0643	1.3.5.7	14:10	15:40	A-320	 
+Mumbai	Varanasi	AI 0695	1.3.5.7	10:30	12:40	A-319	 
+Mumbai	Varanasi	AI 0695	.2.4.6.	10:30	14:20	A-319	1
+Mumbai	Visakhapatnam	AI 0651	1.3.5.7	10:05	13:35	A-321	1
+Mumbai	Visakhapatnam	AI 0651	.2.4.6.	10:05	13:35	A-321	1
+Muscat	Ahmedabad	AI 0986	1234567	0:20	6:45	A-321	1
+Muscat	Bengaluru	AI 0978	1.3.5..	22:50	5:25+1	A-319	1
+Muscat	Chennai	AI 0908	1234567	23:00	3:55+1	A-319	 
+Muscat	Delhi	AI 0974	1234567	23:10	3:45+1	A-321	 
+Muscat	Hyderabad	AI 0978	1.3.5..	22:50	3:35+1	A-319	 
+Muscat	Mumbai	AI 0986	1234567	0:20	4:25	A-321	 
+Nagpur	Delhi	AI 0470	.23.5.7	8:25	10:15	A-320	 
+Nagpur	Delhi	AI 0469	1..4.6.	8:45	10:35	A-320	 
+Nagpur	Mumbai	AI 0628	1234567	7:55	9:20	A-319	 
+Nagpur	Mumbai	AI 0630	1234567	21:15	22:55	A-320	 
+Nanded	Amritsar	AI 0816	.....67	13:50	16:30	A-320	 
+Nanded	Chandigarh	AI 0818	.23....	12:05	14:20	A-320	 
+Nanded	Delhi	AI 0456	1..4...	17:45	19:30	A-319	 
+Nasik	Ahmedabad	9I 0871	123456	8:55	10:50	ATR-72	 
+Nasik	Hyderabad	9I 0872	......7	8:55	10:50	ATR-72	 
+Nasik	Hyderabad	9I 0872	123456	13:00	14:50	ATR-72	 
+New York	Delhi	AI 0102	1234567	14:25	14:50+1	B777-ER	 
+New York	Mumbai	AI 0106	......7	11:05	12:10+1	B777-ER	 
+New York	Mumbai	AI 0102	1234567	14:25	19:10+1	B777-ER	1
+New York	Mumbai	AI 0106	..3.5..	16:45	17:50+1	B777-ER	 
+Newark	Delhi	AI 0144	.2.4.67	13:15	19:10+1	B777-ER	1
+Newark	Delhi	AI 0144	1.3.5..	16:15	20:35+1	B777-ER	1
+Newark	Mumbai	AI 0144	.2.4.67	13:15	14:10+1	B777-ER	 
+Newark	Mumbai	AI 0144	1.3.5..	16:15	17:10+1	B777-ER	 
+Osaka	Delhi	AI 0315	.2.4.6.	13:25	21:30	B787	1
+Osaka	Hong Kong	AI 0315	.2.4.6.	13:25	16:35	B787	 
+Osaka	Mumbai	AI 0315	.2.4.6.	13:25	1:25+1	B787	2
+Pantnagar	Dehra Dun	9I 0823	..3..67	13:40	14:40	ATR-42	 
+Pantnagar	Dehra Dun	9I 0823	....5..	14:00	14:50	ATR-42	 
+Pantnagar	Delhi	9I 0816	..3.567	16:30	17:40	ATR-42	 
+Paris	Chennai	AI 0142	1234567	21:00	15:15+1	B787	1
+Paris	Delhi	AI 0142	1234567	21:00	10:00+1	B787	 
+Pasighat	Lilabari	9I 0733	1.3.5.7	9:25	10:00	ATR-72	 
+Pathankot	Delhi	9I 0836	12.4...	14:00	15:30	ATR-42	 
+Patna	Delhi	AI 0410	1234567	12:40	14:40	A-319	 
+Patna	Delhi	AI 0408	1234567	15:55	17:40	A-319	 
+Patna	Delhi	AI 0416	1234567	19:10	20:55	A-320	 
+Port Blair	Chennai	AI 0550	1234567	8:00	10:10	A-321	 
+Port Blair	Chennai	AI 0552	.2.45.7	13:20	15:35	A-320	 
+Port Blair	Delhi	AI 0486	.23.5.7	9:45	14:45	A-320	1
+Port Blair	Delhi	AI 0486	1..4.6.	10:50	14:30	A-320	 
+Port Blair	Delhi	AI 0488	1...5..	12:30	17:45	A-320	1
+Port Blair	Kolkata	AI 0788	1234567	8:30	10:35	A-319	 
+Port Blair	Visakhapatnam	AI 0486	.23.5.7	9:45	11:55	A-320	 
+Port Blair	Visakhapatnam	AI 0488	1...5..	12:30	14:35	A-320	 
+Pune	Chandigarh	AI 0814	1..45..	12:20	14:55	A-320	 
+Pune	Delhi	AI 0852	1234567	7:40	9:45	A-320	 
+Pune	Delhi	AI 0850	1234567	18:50	20:55	A-320	 
+Pune	Delhi	AI 0854	1234567	22:00	0:25+1	A-321	 
+Pune	Goa	9I 0561	12345.7	11:40	12:50	ATR-72	 
+Pune	Hyderabad	9I 0562	12345.7	15:15	16:55	ATR-72	 
+Pune	Hyderabad	9I 0868	1234567	21:10	22:45	ATR-72	 
+Raipur	Bhopal	9I 0684	1234567	17:45	19:25	ATR-72	 
+Raipur	Delhi	AI 0469	1..4.6.	7:45	10:35	A-320	1
+Raipur	Delhi	AI 0478	.23.5.7	7:45	9:15	A-319	 
+Raipur	Jaipur	9I 0684	1234567	17:45	21:15	ATR-72	1
+Raipur	Kolkata	9I 0720	1234567	17:50	21:00	ATR-72	1
+Raipur	Mumbai	AI 0651	1.3.5.7	12:30	16:25	A-321	1
+Raipur	Mumbai	AI 0651	.2.4.6.	12:30	17:00	A-321	1
+Raipur	Nagpur	AI 0469	1..4.6.	7:45	8:10	A-320	 
+Raipur	Ranchi	9I 0720	1234567	17:50	19:15	ATR-72	 
+Raipur	Visakhapatnam	AI 0651	1.3.5.7	12:30	13:35	A-321	 
+Raipur	Visakhapatnam	AI 0651	.2.4.6.	12:30	13:35	A-321	 
+Rajkot	Delhi	AI 0498	1..4.6.	7:35	8:55	A-319	 
+Rajkot	Delhi	AI 0496	.2.....	19:15	20:55	A-319	 
+Rajkot	Delhi	AI 0496	..3.5.7	19:30	21:10	A-319	 
+Rajkot	Mumbai	AI 0656	1.3.5.7	17:40	18:45	A-319	 
+Ranchi	Bhubaneswar	9I 0727	1234567	7:50	8:50	ATR-72	 
+Ranchi	Delhi	AI 0418	1234567	13:25	15:30	A-320	 
+Ranchi	Kolkata	9I 0727	1234567	7:50	11:10	ATR-72	1
+Ranchi	Kolkata	9I 0720	1234567	19:45	21:00	ATR-72	 
+Ranchi	Raipur	9I 0719	1234567	15:45	17:20	ATR-72	 
+Riyadh	Ahmedabad	AI 0922	.2.....	6:45	13:00	A-320	 
+Riyadh	Delhi	AI 0926	1..4.6.	15:45	22:40	A-320	 
+Riyadh	Kochi	AI 0924	.2....7	15:45	23:15	A-320	 
+Riyadh	Mumbai	AI 0922	1.3.5.7	6:45	13:20	A-320	 
+Riyadh	Mumbai	AI 0922	.2.....	6:45	17:25	A-320	1
+Riyadh	Mumbai	AI 0922	...4.6.	13:15	19:50	A-320	 
+Riyadh	Thiruvananthapuram	AI 0928	..3.5..	15:45	23:15	A-320	 
+Rome	Delhi	AI 0122	..3.5.7	19:40	7:15+1	B787	 
+San Francisco	Bengaluru	AI 0174	1.34567	10:30	20:25+1	B777-LR	1
+San Francisco	Delhi	AI 0184	1.3..6.	1:00	7:00+1	B777-LR	 
+San Francisco	Delhi	AI 0174	1.34567	10:30	16:05+1	B777-LR	 
+Seoul	Delhi	AI 0317	1.3.5.7	13:50	21:30	B787	1
+Seoul	Hong Kong	AI 0317	1.3.5.7	13:50	16:35	B787	 
+Seoul	Mumbai	AI 0317	1.3.5.7	13:50	1:25+1	B787	2
+Shanghai	Delhi	AI 0349	.2.4567	22:00	2:45+1	B787	 
+Shanghai	Mumbai	AI 0349	.2.4567	22:00	6:15+1	B787	1
+Sharjah	Chennai	AI 0968	1234567	0:05	7:15	A-320	1
+Sharjah	Kozhikode	AI 0998	1234567	1:00	6:10	A-321	 
+Sharjah	Thiruvananthapuram	AI 0968	1234567	0:05	5:30	A-320	 
+Shillong	Kolkata	9I 0712	1234567	16:00	17:45	ATR-72	 
+Shirdi	Hyderabad	9I 0870	1234567	16:40	18:50	ATR-72	 
+Shirdi	Mumbai	9I 0654	......7	9:55	11:05	ATR-72	 
+Shirdi	Mumbai	9I 0654	1......	16:35	17:25	ATR-72	 
+Silchar	Kolkata	AI 0754	1....6.	7:40	8:50	A-319	 
+Silchar	Kolkata	AI 0754	.2345.7	7:40	8:50	A-319	 
+Shimla	Delhi	9I 0804	1234.67	9:30	10:45	ATR-42	 
+Shimla	Delhi	9I 0804	....5..	10:45	11:55	ATR-42	 
+Singapore	Chennai	AI 0347	1234567	9:00	10:25	A-320	 
+Singapore	Delhi	AI 0381	1234567	8:20	11:30	B787	 
+Singapore	Delhi	AI 0383	1234567	23:00	2:20+1	B787	 
+Singapore	Mumbai	AI 0343	1234567	19:45	22:20	A-320	 
+Srinagar	Delhi	AI 0828	.2.4.67	11:30	13:00	A-320	 
+Srinagar	Delhi	AI 0826	1234567	12:25	14:05	A-321	 
+Srinagar	Delhi	AI 0822	1234567	14:20	17:10	A-319	1
+Srinagar	Jammu	AI 0822	1234567	14:20	15:05	A-319	 
+Srinagar	Leh	AI 0447	..34...	10:15	11:15	A-319	 
+Stockholm	Delhi	AI 0168	..3.5.7	19:45	6:55+1	B787	 
+Surat	Delhi	AI 0494	1234567	7:45	9:15	A-319	 
+Surat	Delhi	AI 0490	1..4...	21:25	23:05	A-319	 
+Surat	Delhi	AI 0490	.23.567	21:25	23:05	A-319	 
+Surat	Mumbai	9I 0650	..3.5.7	7:10	7:55	ATR-72	 
+Sydney	Delhi	AI 0301	.2..5.7	10:45	17:50	B787	 
+Sydney	Delhi	AI 0301	..3....	11:35	18:40	B787	 
+Sydney	Delhi	AI 0301	.....6.	11:35	18:50	B787	 
+Tel Aviv	Delhi	AI 0140	12.4.67	21:25	7:25+1	B787	 
+Tezpur	Guwahati	9I 0732	.2.4.6.	8:50	9:30	ATR-72	 
+Tezpur	Kolkata	9I 0732	.2.4.6.	8:50	11:30	ATR-72	1
+Thiruvananthapuram	Bengaluru	AI 0584	.2.....	11:15	12:30	A-319	 
+Thiruvananthapuram	Chennai	AI 0968	1234567	6:15	7:15	A-320	 
+Thiruvananthapuram	Delhi	AI 0466	12.4.6.	6:05	10:50	A-321	1
+Thiruvananthapuram	Delhi	AI 0466	..3.5.7	6:05	11:05	A-321	1
+Thiruvananthapuram	Delhi	AI 0264	.2.....	19:20	22:35	A-320	 
+Thiruvananthapuram	Delhi	AI 0264	1..4567	21:40	1:05+1	A-320	 
+Thiruvananthapuram	Delhi	AI 0264	..3....	21:40	1:05+1	A-320	 
+Thiruvananthapuram	Kochi	AI 0466	12.4.6.	6:05	6:50	A-321	 
+Thiruvananthapuram	Kochi	AI 0466	..3.5.7	6:05	6:50	A-321	 
+Thiruvananthapuram	Male	AI 0263	1234567	9:20	10:05	A-320	 
+Thiruvananthapuram	Mumbai	AI 0668	1234567	20:15	22:25	A-319	 
+Thiruvananthapuram	Riyadh	AI 0927	...4.6.	8:45	11:50	A-320	 
+Thiruvananthapuram	Sharjah	AI 0967	1234567	20:40	23:05	A-320	 
+Tiruchirapalli	Chennai	9I 0558	1234567	7:10	8:10	ATR-72	 
+Tiruchirapalli	Chennai	9I 0556	1234567	14:10	15:25	ATR-72	 
+Tirupati	Delhi	AI 0541	1..4...	14:15	18:30	A-321	1
+Tirupati	Delhi	AI 0541	.23.567	14:15	18:40	A-321	1
+Tirupati	Hyderabad	AI 0541	1..4...	14:15	15:20	A-321	 
+Tirupati	Hyderabad	AI 0541	.23.567	14:15	15:20	A-321	 
+Tirupati	Hyderabad	9I 0527	12.4567	16:50	18:00	ATR-72	 
+Tirupati	Vijayawada	9I 0528	12.4567	20:10	21:10	ATR-72	 
+Tirupati	Visakhapatnam	9I 0528	12.4567	20:10	22:35	ATR-72	1
+Tokyo	Delhi	AI 0307	1.3..67	11:30	18:00	B787	 
+Udaipur	Delhi	AI 0472	1..4...	15:10	16:30	A-320	 
+Udaipur	Delhi	AI 0472	.23.567	15:10	16:30	A-320	 
+Udaipur	Jaipur	9I 0686	..3.5.7	11:30	13:25	ATR-72	 
+Udaipur	Mumbai	AI 0644	1.3.5.7	16:20	17:50	A-320	 
+Vadodara	Delhi	AI 0820	1.3..6.	20:20	21:45	A-321	 
+Vadodara	Delhi	AI 0820	.2.45.7	20:20	21:45	A-319	 
+Varanasi	Agra	AI 0406	1.3..6.	12:10	13:20	A-319	 
+Varanasi	Colombo	AI 0271	....5.7	12:35	15:55	A-321	 
+Varanasi	Delhi	AI 0433	1234567	15:30	16:55	A-319	 
+Varanasi	Delhi	AI 0405	1.3..6.	16:50	18:25	A-319	 
+Varanasi	Delhi	AI 0405	.2.4...	16:50	18:25	A-321	 
+Varanasi	Delhi	AI 0428	1..4...	19:20	21:10	A-320	 
+Varanasi	Delhi	AI 0428	.2...6.	19:20	21:10	A-320	 
+Varanasi	Delhi	AI 0405	....5.7	21:10	23:25	A-321	 
+Varanasi	Khajuraho	AI 0406	1.3..6.	12:10	14:40	A-319	1
+Varanasi	Kolkata	AI 0421	.2.4...	12:10	13:20	A-321	 
+Varanasi	Lucknow	AI 0696	.2.4.6.	15:10	16:10	A-319	 
+Varanasi	Mumbai	AI 0696	1.3.5.7	13:25	15:40	A-319	 
+Varanasi	Mumbai	AI 0696	.2.4.6.	15:10	19:15	A-319	1
+Vienna	Delhi	AI 0154	1.3.5.7	22:45	10:20+1	B787	 
+Vijayawada	Delhi	AI 0460	1..45.7	9:05	11:20	A-320	 
+Vijayawada	Delhi	AI 0460	.23..6.	9:05	11:20	A-319	 
+Vijayawada	Delhi	AI 0840	1234567	17:30	21:25	A-320	1
+Vijayawada	Delhi	AI 0468	1234567	20:40	22:55	A-320	 
+Vijayawada	Hyderabad	9I 0527	12.4567	15:10	18:00	ATR-72	1
+Vijayawada	Hyderabad	9I 0537	..3....	16:25	17:30	ATR-72	 
+Vijayawada	Hyderabad	AI 0840	1234567	17:30	18:25	A-320	 
+Vijayawada	Tirupati	9I 0527	12.4567	15:10	16:20	ATR-72	 
+Vijayawada	Visakhapatnam	9I 0540	1234567	8:20	9:20	ATR-72	 
+Vijayawada	Visakhapatnam	9I 0538	..3....	19:50	20:50	ATR-72	 
+Vijayawada	Visakhapatnam	9I 0528	12.4567	21:35	22:35	ATR-72	 
+Visakhapatnam	Delhi	AI 0452	1234567	7:50	10:20	A-321	 
+Visakhapatnam	Delhi	AI 0486	.23.5.7	12:30	14:45	A-320	 
+Visakhapatnam	Delhi	AI 0488	1...5..	15:15	17:45	A-320	 
+Visakhapatnam	Dubai	AI 0951	1234567	18:00	22:25	A-321	1
+Visakhapatnam	Hyderabad	9I 0527	12.4567	13:45	18:00	ATR-72	2
+Visakhapatnam	Hyderabad	9I 0537	..3....	15:00	17:30	ATR-72	1
+Visakhapatnam	Hyderabad	AI 0951	1234567	18:00	19:10	A-321	 
+Visakhapatnam	Mumbai	AI 0651	1.3.5.7	14:15	16:25	A-321	 
+Visakhapatnam	Mumbai	AI 0651	.2.4.6.	14:50	17:00	A-321	 
+Visakhapatnam	Port Blair	AI 0485	1..4.6.	8:15	10:05	A-320	 
+Visakhapatnam	Port Blair	AI 0487	1...5..	9:40	11:50	A-320	 
+Visakhapatnam	Tirupati	9I 0527	12.4567	13:45	16:20	ATR-72	1
+Visakhapatnam	Vijayawada	9I 0539	1234567	6:55	7:55	ATR-72	 
+Visakhapatnam	Vijayawada	9I 0527	12.4567	13:45	14:45	ATR-72	 
+Visakhapatnam	Vijayawada	9I 0537	..3....	15:00	16:00	ATR-72	 
+Washington	Delhi	AI 0104	..3.5.7	10:25	11:00+1	B777-ER	 
+Washington	Hyderabad	AI 0104	..3.5.7	10:25	15:15+1	B777-ER	1
+Yangon	Delhi	AI 0236	..3....	12:55	16:25	A-320	1
+Yangon	Gaya	AI 0234	1....6.	9:20	10:40	A-319	 
+Yangon	Gaya	AI 0236	..3....	12:55	13:55	A-320	 
+Yangon	Kolkata	AI 0234	1....6.	9:20	12:35	A-319	1
+Yangon	Kolkata	AI 0228	....5..	15:55	17:15	A-319	 
