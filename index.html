@@ -2,175 +2,142 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title></title>
-<!--
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-breaks at 1.10.0
-latest:
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
--->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://malsup.github.com/jquery.form.js"></script>
-    <script src="js/seats.js"></script>
-    <script src="js/dynamic_reports.js"></script>
+    <title>Airline Reservation System</title>
     <link rel="stylesheet" href="style/airline.css">
-    <link rel="stylesheet" href="style/bp.css">
+    <!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/air.db.js"></script>
   </head>
   <body>
     Node.js v<script>document.write(process.versions.node)</script>;
     Chromium v<script>document.write(process.versions.chrome)</script>;
     Electron v<script>document.write(process.versions.electron)</script>.
-    <script>
-        aircraft = "ERJ-190";
-        document.write(buildHtml(aircraft));
-    </script>
-<p><b>JSON:</b> <span id="pass_json"></span></p>
-<p><b>SQL:</b> <span id="pass_sql"></span></p>
 
-<form id="CustomerProfile">
-  Customer Information<br>
-  First name: <input type="text" name="firstname" id="firstname">
-  Last name: <input type="text" name="lastname" id="lastname">
-  gender:
-  <input type="radio" name="gender" value="male" checked="checked" id="male">
-  <label for="male">male</label>
-  <input type="radio" name="gender" value="female" id="female">
-  <label for="female">female</label>
-  d.o.b.:  <input type="text" name="dob" id="dob">
-  <br>
-  Email: <input type="text" name="email" id="email">
-  Phone num: <input type="text" name="phone" id="phone">
+<div id="air">
+    <h1>Airline Reservation System</h1>
+
+<div> <a href="search.htm">quick search</a> <a href="booking.htm">book ticket</a> <a href="cancel.htm">cancel ticket</a><br> </div>
+
+<h3>User Login</h3>
+
+<form id="UserLogin">
+  Frequent Flier ID: <input type="text" name="pass_ff" id="pass_ff" v-model="pass.ff"><br>
+  Password: <input type="password" name="pass_pwd" maxlength="8"><br>
+  <input type="submit">
+  <b>JSON:</b> <span id="ff_json">{{to_json()}}</span><br>
+  <b>SQL:</b> <span id="ff_sql"></span><br>
 </form>
-<form id="FlightInfo">
+
+<h3 @click="toggle(pass)">Passenger Information</h3>
+<form id="pass_form" v-show="pass.form_vis">
+  Title:<select name="pass_salutation" id="pass_salutation" v-model="pass.salutation">
+          <option value="Mr.">Mr.</option>
+          <option value="Mrs.">Mrs.</option>
+          <option value="Miss">Miss</option>
+          </select>
+  First name: <input type="text" name="pass_firstname" id="pass_firstname" v-model="pass.firstname">
+  Last name: <input type="text" name="pass_lastname" id="pass_lastname" v-model="pass.lastname"><br>
+  d.o.b.:  <input type="text" name="pass_dob" id="pass_dob" v-model="pass.dob"><br> 
+  ID Type:<select name="pass_govidtype" id="pass_govidtype" v-model="pass.govidtype">
+          <option value="adhaarcard">adhaar card</option>
+          <option value="pancard">pan card</option>
+          <option value="drivingliscence">driving liscence</option>
+          <option value="voterid">voter id</option>
+          </select>
+  ID Number: <input type="text" name="pass_govid" id="pass_govid" v-model="pass.govid"><br>  
+  Email: <input type="text" name="pass_email" id="pass_email" v-model="pass.email">
+  Phone num: <input type="text" name="pass_phone" id="pass_phone" v-model="pass.phone"><br>
+  address:
+  <textarea rows="4" cols="50" name="pass_address" id="pass_address" v-model="pass.addr"></textarea><br>
+  <b>JSON:</b> <span id="pass_json">{{pass2json}}</span><br>
+  <b>SQL: </b> <span id="pass_sql">INSERT INTO Passengers (FirstName, LastName) VALUES ('{{pass.firstname}}', '{{pass.lastname}}', '') </span><br>
 </form>
+
+<h3 @click="toggle(flt)">Flight Details</h3>
+<form id="flt_form" v-show="flt.form_vis">
+  Flight No.: <input type="text" name="flt_num" id="flt_num" v-model="flt.num">
+  Departure: <input type="text" name="flt_orig" id="flt_orig" v-model="flt.orig">
+  <input type="text" name="flt_orig_full" id="flt_orig_full" v-model="flt.orig_full">
+  Destination: <input type="text" name="flt_dest" id="flt_dest" v-model="flt.dest">
+  <input type="text" name="flt_dest_full" id="flt_dest_full" v-model="flt.dest_full"> <br>
+  Date: <input type="text" name="flt_date" id="flt_date" v-model="flt.date">
+  Boarding: <input type="text" name="flt_board" id="flt_board" v-model="flt.board">
+  TakeOff: <input type="text" name="flt_takeoff" id="flt_takeoff" v-model="flt.takeoff">
+  duration: <input type="text" name="flt_dur" id="flt_dur" v-model="flt.dur">
+  Land: <input type="text" name="flt_land" id="flt_land" v-model="flt.land"> <br>
+  Gate: <input type="text" name="flt_gate" id="flt_gate" v-model="flt.gate">
+  Term: <input type="text" name="flt_term" id="flt_term" v-model="flt.term">
+  Base Price: <input type="text" name="flt_price" id="flt_price" v-model="flt.price">
+  Aircraft model: <input type="text" name="flt_model" id="flt_model" v-model="flt.model">
+  <b>JSON:</b> <span id="flt_json">{{to_json(flt)}}</span><br>
+  <b>SQL:</b> <span id="flt_sql">{{sql_insert(flt)}}</span><br>
+</form>
+
+<h3>book flight and buy ticket</h3>
 <form id="buyTicket">
-  <br>
-  Flight Number: <input type="text" name="flt" id="flt" value="101">
-  <br>
-
-  Seat Number: <input type="text" name="seat" id="seat" value="1A" onfocusout="fillSeat()">
-  <br>
+  Flight Number: {{flt.num}}<br>
+  Seat Number: <input type="text" name="tkt_seat" id="tkt_seat" @blur="fillSeat(tkt.seat)" v-model="tkt.seat"> <br>
   <input type="submit" value="Submit" onsubmit="savejson()">
+  <b>JSON:</b> <span id="tkt_json">{{to_json(tkt)}}</span><br>
+  <b>SQL:</b> <span id="tkt_sql"></span><br>
 </form>
-<div id="etkt">
-</div>
-<div id="boadingpass">
-</div>
-<script>
-        $( ":checkbox, :radio, :text" ).click( showValues );
-        $( "select" ).change( showValues );
-        showValues();
-        object.onsubmit = function(){jsonify}; 
-</script>
-<div class="boardingpass">
-  <header>
-    <svg>
-      <use xlink:href="#indigo"></use>
+
+<h3 @click="toggle(seatmap)">seat map {{flt.aircraft}}</h3>
+<div id="seatmap_view" v-show="seatmap.form_vis">
+    <svg :width="length" :height="width">
+        <rect x="0" y="0" :width="length" :height="width"/>
+        <template v-for="i in aircraft.rows">
+            <template v-for="(jj, j) in aircraft.cols">
+                <circle class="empty" :cx="i*aircraft.spacing-10" :cy="width-j*aircraft.spacing-18" r="12" :id="i+jj"/>
+                <text :x="i*aircraft.spacing-18" :y="width-j*aircraft.spacing-18+4">{{i}}{{jj}}</text>
+            </template>
+        </template>
     </svg>
+</div>
 
-    <div>
-      <h4>FF</h4>
-      <h5 id="bp_ff">HL354298</h5>
-    </div>
-
-    <div class="passenger">
-      <h4>Passenger</h4>
-      <h5 id="bp_firstname">Ashwani</h5>
-      <h5 id="bp_lastname">Singh</h5>
-    </div>
-
-    <div>
-      <h4>sex</h4>
-      <h5 id="bp_sex">male</h5>
-    </div>
-
-    <div>
-      <h4>etkt</h4>
-      <h5 id="bp_etkt">0982962418101C1</h5>
-    </div>
-
-    <div>
-    <h4>PNR/Booking</h4>
-    <h5 id="bp_pnr">XJ45D9</h5>
-    </div>
+<h3 @click="toggle(bp)">boarding pass</h3>
+<div class="boardingpass" v-show="bp.form_vis">
+  <header>
+    <svg> <use xlink:href="#indigo"></use> </svg>
+    <div> <h4>FF</h4> <h5>{{pass.ff}}</h5> </div>
+    <div class="passenger"> <h4>Passenger</h4> <h5>{{pass.salutation}} {{pass.firstname}} {{pass.lastname}}</h5> </div>
+    <div> <h4>etkt</h4> <h5>{{tkt.etkt}}</h5> </div>
+    <div> <h4>PNR/Booking</h4> <h5>{{pnr}}</h5> </div>
   </header>
-
   <section class="flt">
     <div>
-      <h4>Flight</h4>
-      <h5 id="bp_flt">6E 604</h5>
-      <h4>Depart on</h4>
-      <h5 id="bp_date">30 May</h5>
+      <h4>Flight</h4> <h5>{{flt.num}}</h5>
+      <h4>Depart on</h4> <h5>{{flt.dt}}</h5>
     </div>
-
-
     <div class="city">
-      <h2 id="bp_orig_code">IXD</h2>
-      <h3 id="bp_orig_name">Allahabad</h3>
-      <div>
-      <h4>Board</h4>
-      <h5 id="bp_boarding">16:00</h5>
-      </div>
-      <div>
-      <h4>Depart</h4>
-      <h5 id="bp_departure">16:30</h5>
-      </div>
+      <h2>{{flt.orig}}</h2> <h3>{{flt.orig_full}}</h3>
+      <h4>Board</h4> <h5>{{flt.board}}</h5>
+      <h4>Depart</h4> <h5>{{flt.takeoff}}</h5>
     </div>
-
     <div class="city">
-      <h2 id="bp_dest_code">BLR</h2>
-      <h3 id="bp_dest_name">Bengaluru</h3>
-      <h4>Duration</h4>
-      <h5 id="bp_duration">1.5h</h5>
-      <h4>Arrive</h4>
-      <h5 id="bp_arrival">18:00</h5>
+      <h2>{{flt.dest}}</h2> <h3>{{flt.dest_full}}</h3>
+      <h4>Duration</h4> <h5>{{flt.dur}}</h5>
+      <h4>Arrive</h4> <h5>{{flt.land}}</h5>
     </div>
-    <div>
-      <h4>Term.</h4>
-      <h5 id="bp_term">T3</h5>
-    </div>
-
-    <div>
-      <h4>Gate</h4>
-      <h5 id="bp_gate">07</h5>
-    </div>
+    <div> <h4>Term.</h4> <h5>{{flt.term}}</h5> </div>
+    <div> <h4>Gate</h4> <h5>{{flt.gate}}</h5> </div>
+    <div> <h4>Model</h4> <h5>{{flt.aircraft}}</h5> </div>
   </section>
   <section class="info">
-    <div>
-      <h4>Seat</h4>
-      <h5 id="bp_seat">12 F</h5>
-    </div>
-
-    <div>
-      <h4>Bags</h4>
-      <h5 id="bp_bags">2</h5>
-    </div>
-    <div>
-      <h4>Group</h4>
-      <h5 id="bp_group">D</h5>
-    </div>
-
-    <div>
-      <h4>seq</h4>
-      <h5 id="bp_seq">130</h5>
-    </div>
-    <div>
-      <h4>Class</h4>
-      <h5 id="bp_class">First</h5>
-    </div>
-
-    <div>
-      <h4>Services</h4>
-      <h5 id="bp_svcs">VegMeal</h5>
-    </div>
-
-    <div>
-      <h4>Notes</h4>
-      <h5 id="bp_notes">SSSS</h5>
-    </div>
+    <div> <h4>Seat</h4> <h5>{{tkt.seat}}</h5> </div>
+    <div> <h4>Bags</h4> <h5>{{tkt.bags}}</h5> </div>
+    <div> <h4>Group</h4> <h5>{{tkt.grp}}</h5> </div>
+    <div> <h4>seq</h4> <h5>{{tkt.seq}}</h5> </div>
+    <div> <h4>Class</h4> <h5>{{tkt.cls}}</h5> </div>
+    <div> <h4>Services</h4> <h5>{{tkt.svcs}}</h5> </div>
+    <div> <h4>Notes</h4> <h5>{{tkt.notes}}</h5> </div>
   </section>
+</div>
+
+<h3 @click="toggle(pm)">Passenger Manifest</h3>
+<div class="passengermanifest" v-show="pm.form_vis">
+    <p id="passengerManifestL"></p>
+<!--    <a href="localhost:3000/requests/1234">router-request</a> -->
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
@@ -200,5 +167,9 @@ l0 -130 35 0 35 0 0 155 c0 171 -5 193 -60 238 -50 43 -119 56 -187 36z"/>
 </g>
 </symbol>
 </svg>
+</div>
+    <script src="js/air.vue.js"></script>
+    <script src="js/air.electron_ipc.js"></script>
+    <script> //ipc_register() </script>
   </body>
 </html>
