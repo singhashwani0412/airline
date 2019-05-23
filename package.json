@@ -1,38 +1,33 @@
 {
-    "name": "air",
-    "version": "1.0.0",
-    "main": "ipc-main.js",
-    "author": "",
-    "license": "ISC",
-    "description": "Airline Reservation System",
-    "keywords": [],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/singhashwani0412/airline.git"
-    },
-    "directories": {
-        "test": "test"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "rebuild": "electron-rebuild -f -w sqlite3",
-        "start": "electron ."
-    },
-    "dependencies": {
-        "electron": "^4.2.0",
-        "jquery": "^3.4.1",
-        "jquery-ui-dist": "^1.12.1",
-        "knex": "^0.16.5",
-        "live-server": "^1.2.1",
-        "moment": "^2.24.0",
-        "moment-timezone": "^0.5.25",
-        "sqlite3": "^4.0.8"
-    },
-    "devDependencies": {
-        "electron-rebuild": "^1.8.4"
-    },
-    "bugs": {
-        "url": "https://github.com/singhashwani0412/airline/issues"
-    },
-    "homepage": "https://github.com/singhashwani0412/airline#readme"
+  "name": "air",
+  "version": "1.0.0",
+  "description": "Air Reservation System",
+  "main": "ipc-main.js",
+  "scripts": {
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhashwani0412/airline.git"
+  },
+  "author": "Ashwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhashwani0412/airline/issues"
+  },
+  "homepage": "https://github.com/singhashwani0412/airline#readme",
+  "dependencies": {
+    "electron": "^5.0.1",
+    "jquery": "^3.4.1",
+    "jquery-ui-dist": "^1.12.1",
+    "live-server": "^1.2.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.25",
+    "read-file": "^0.2.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.4"
+  }
 }
