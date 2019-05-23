@@ -7,11 +7,22 @@
     <!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="js/air.db.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script>
+      var $ = jQuery = require('jquery');
+      require('jquery-ui-dist/jquery-ui');
+      $( function() {
+        $( ".datepicker" ).datepicker();
+        $( ".datepicker" ).datepicker( "option", "dateFormat", "yy-mm-dd");
+      } );
+    </script>
+
   </head>
   <body>
-    Node.js v<script>document.write(process.versions.node)</script>;
-    Chromium v<script>document.write(process.versions.chrome)</script>;
-    Electron v<script>document.write(process.versions.electron)</script>.
+<pre> all <script>document.write(JSON.stringify(process.versions).replace(new RegExp(",", 'g'), ",\n"))</script></pre>
 
 <div id="air">
     <h1>Airline Reservation System</h1>
@@ -37,7 +48,7 @@
           </select>
   First name: <input type="text" name="pass_firstname" id="pass_firstname" v-model="pass.firstname">
   Last name: <input type="text" name="pass_lastname" id="pass_lastname" v-model="pass.lastname"><br>
-  d.o.b.:  <input type="text" name="pass_dob" id="pass_dob" v-model="pass.dob"><br> 
+  d.o.b.:  <input type="text" class="datepicker" name="pass_dob" id="pass_dob" v-model="pass.dob"><br> 
   ID Type:<select name="pass_govidtype" id="pass_govidtype" v-model="pass.govidtype">
           <option value="adhaarcard">adhaar card</option>
           <option value="pancard">pan card</option>
@@ -60,7 +71,7 @@
   <input type="text" name="flt_orig_full" id="flt_orig_full" v-model="flt.orig_full">
   Destination: <input type="text" name="flt_dest" id="flt_dest" v-model="flt.dest">
   <input type="text" name="flt_dest_full" id="flt_dest_full" v-model="flt.dest_full"> <br>
-  Date: <input type="text" name="flt_date" id="flt_date" v-model="flt.date">
+  Date: <input type="text" name="flt_date" class="datepicker" id="flt_date" v-model="flt.date">
   Boarding: <input type="text" name="flt_board" id="flt_board" v-model="flt.board">
   TakeOff: <input type="text" name="flt_takeoff" id="flt_takeoff" v-model="flt.takeoff">
   duration: <input type="text" name="flt_dur" id="flt_dur" v-model="flt.dur">
@@ -69,6 +80,7 @@
   Term: <input type="text" name="flt_term" id="flt_term" v-model="flt.term">
   Base Price: <input type="text" name="flt_price" id="flt_price" v-model="flt.price">
   Aircraft model: <input type="text" name="flt_model" id="flt_model" v-model="flt.model">
+#TBD: date board gate terminal
   <b>JSON:</b> <span id="flt_json">{{to_json(flt)}}</span><br>
   <b>SQL:</b> <span id="flt_sql">{{sql_insert(flt)}}</span><br>
 </form>

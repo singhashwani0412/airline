@@ -20,9 +20,13 @@
     },
     "dependencies": {
         "electron": "^4.2.0",
+        "jquery": "^3.4.1",
+        "jquery-ui-dist": "^1.12.1",
         "knex": "^0.16.5",
         "live-server": "^1.2.1",
-        "sqlite3": "^4.0.6"
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.25",
+        "sqlite3": "^4.0.8"
     },
     "devDependencies": {
         "electron-rebuild": "^1.8.4"

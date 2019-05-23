@@ -59,3 +59,18 @@ typings/
 
 # next.js build output
 .next
+
+# airline
+archive/
+package-lock.json
+codes/
+db/test/
+data/India Airport Codes, IATA 3 Letter Airport Codes.csv
+data/ai-tt.js
+data/ai-tt.tsv
+data/city_list.sh
+data/codes.json
+data/create-tt-json.sh
+data/load_db.sh
+data/xlate.js
+data/xlate.json

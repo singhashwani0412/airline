@@ -4,6 +4,11 @@
 # sqlite on electron video: https://www.youtube.com/watch?v=c76FTxLRwAw
 # reference: https://electronjs.org/docs/api/browser-window
 #----
+https://www.tutorialspoint.com/sqlite/sqlite_date_time.htm
+https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
+http://www.sqlitetutorial.net/sqlite-date/
+http://www.sqlitetutorial.net/sqlite-date-functions/sqlite-date-function/
+#----
 DB Browser for SQlite: https://sqlitebrowser.org/
 install nodejs
 install python2.7 # NOT Python 3

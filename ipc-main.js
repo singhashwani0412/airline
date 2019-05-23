@@ -20,9 +20,9 @@ function createWindow () {
         var result = knex.select("*").from("pass")
         //console.log(result);
         result.then(function(result){
-            for (let i=0; i<result.length; i++){
-                console.log(result[i].firstname.toString()+"\n");
-            }
+            //for (let i=0; i<result.length; i++){
+            //    console.log(result[i].firstname.toString()+"\n");
+            //}
             mainWindow.webContents.send("passManifestPayload", result)
         })
     })

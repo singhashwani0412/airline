@@ -1,0 +1,2 @@
+node -p process.versions
+node --v8-options | grep "in progress"
