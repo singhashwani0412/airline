@@ -22,7 +22,7 @@
 
   </head>
   <body>
-<pre> all <script>document.write(JSON.stringify(process.versions).replace(new RegExp(",", 'g'), ",\n"))</script></pre>
+<!--<pre> all <script>document.write(JSON.stringify(process.versions).replace(new RegExp(",", 'g'), ",\n"))</script></pre>-->
 
 <div id="air">
     <h1>Airline Reservation System</h1>
@@ -90,7 +90,7 @@
 <h3>book flight and buy ticket</h3>
 <form id="buyTicket">
   Flight Number: {{flt.num}}<br>
-  Seat Number: <input type="text" name="tkt_seat" id="tkt_seat" @blur="fillSeat(tkt.seat)" v-model="tkt.seat"> <br>
+  Seat Number: <input type="text" name="pass_seat" id="pass_seat" @blur="fillSeat(pass.seat)" v-model="pass.seat"> <br>
   <input type="submit" value="Submit" onsubmit="savejson()">
   <b>JSON:</b> <span id="tkt_json">{{to_json(tkt)}}</span><br>
   <b>SQL:</b> <span id="tkt_sql"></span><br>
@@ -138,7 +138,7 @@
     <div> <h4>Model</h4> <h5>{{flt.aircraft}}</h5> </div>
   </section>
   <section class="info">
-    <div> <h4>Seat</h4> <h5>{{tkt.seat}}</h5> </div>
+    <div> <h4>Seat</h4> <h5>{{pass.seat}}</h5> </div>
     <div> <h4>Bags</h4> <h5>{{tkt.bags}}</h5> </div>
     <div> <h4>Group</h4> <h5>{{tkt.grp}}</h5> </div>
     <div> <h4>seq</h4> <h5>{{tkt.seq}}</h5> </div>

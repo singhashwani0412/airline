@@ -1,7 +1,7 @@
         var air = new Vue({
           el: '#air',
           data: {
-            pass: {form_vis:true, ff: "",firstname: "", lastname: "", salutation: "", dob: "", govidtype: "", govid: "", email: "", phone: "", addr: ""},
+            pass: {form_vis:true, seat:"", ff: "",firstname: "", lastname: "", salutation: "", dob: "", govidtype: "", govid: "", email: "", phone: "", addr: ""},
             pnr: "",
             aircrafts:{
                 "A-319":{rows:29, cols:['A','B','C','D','E','F'], spacing:30},
@@ -46,11 +46,10 @@
                   const fs = require('fs')
                   const savPath = srcPath = "db/pass.json"
                   fs.readFile(srcPath, "utf-8", (err, data) => {
-                      if (err) { alert(err);console.log(err) }
+                      if (err) { console.log(err) }
                       //Do your processing, MD5, send a satellite to the moon, etc.
                       let d2 = JSON.parse(data)
                       d2.push(this.pass)
-                      alert(JSON.stringify(d2))
                       console.log(d2)
                       fs.writeFile (savPath, JSON.stringify(d2), function(err) {
                           if (err) { console.log(err) }

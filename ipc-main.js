@@ -16,6 +16,9 @@ function createWindow () {
         var result = JSON.parse(read.sync("db/pass.json"))
         mainWindow.webContents.send("passManifestPayload", result)
     })
+//    ipcMain.on("setSeat", function (event, seat) {
+//        mainWindow.webContents.send("passManifestPayload", result)
+//    })
 }
 
 app.on('ready', createWindow)
