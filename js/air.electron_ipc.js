@@ -4,6 +4,7 @@
         //fucntion ipc_register() {
             ipc.on("passManifestPayload", function(evt, res){
                 let resultEl = document.getElementById("passengerManifestL")
+                resultEl.innerHTML = ""
                 //console.log(res)
                 res.forEach(function (item) {
                     resultEl.innerHTML += item.firstname.toString()+" "+item.lastname.toString()+"<br>"

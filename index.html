@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style/airline.css">
     <!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="js/air.db.js"></script>
+    <script src="js/air.json.js"></script>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,7 +40,7 @@
 </form>
 
 <h3 @click="toggle(pass)">Passenger Information</h3>
-<form id="pass_form" v-show="pass.form_vis">
+<form id="pass_form" v-show="pass.form_vis" @submit.prevent="handlePassSubmit">
   Title:<select name="pass_salutation" id="pass_salutation" v-model="pass.salutation">
           <option value="Mr.">Mr.</option>
           <option value="Mrs.">Mrs.</option>
@@ -60,6 +60,8 @@
   Phone num: <input type="text" name="pass_phone" id="pass_phone" v-model="pass.phone"><br>
   address:
   <textarea rows="4" cols="50" name="pass_address" id="pass_address" v-model="pass.addr"></textarea><br>
+  <button type="submit">Submit</button>
+
   <b>JSON:</b> <span id="pass_json">{{pass2json}}</span><br>
   <b>SQL: </b> <span id="pass_sql">INSERT INTO Passengers (FirstName, LastName) VALUES ('{{pass.firstname}}', '{{pass.lastname}}', '') </span><br>
 </form>

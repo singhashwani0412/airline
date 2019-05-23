@@ -1,7 +1,7 @@
         var air = new Vue({
           el: '#air',
           data: {
-            pass: {form_vis:true, ff: "",firstname: "", lastname: "Singh", salutation: "", dob: "", govidtype: "", govid: "", email: "", phone: "", addr: ""},
+            pass: {form_vis:true, ff: "",firstname: "", lastname: "", salutation: "", dob: "", govidtype: "", govid: "", email: "", phone: "", addr: ""},
             pnr: "",
             aircrafts:{
                 "A-319":{rows:29, cols:['A','B','C','D','E','F'], spacing:30},
@@ -34,13 +34,30 @@
           },
           methods: {
               fillSeat(seatNum){
-                 seat=document.getElementById(seatNum);
-                 seat.setAttribute("class","filled");
+                 seat=document.getElementById(seatNum)
+                 seat.setAttribute("class","filled")
               },
               toggle(itm){ itm.form_vis = !itm.form_vis },
               sql_insert(itm){ return("") },
               to_json(obj){ return(JSON.stringify(obj)) },
-              //this.style.width = ((this.value.length + 1) * 8) + 'px';
+              //this.style.width = ((this.value.length + 1) * 8) + 'px'
+              handlePassSubmit() {
+                  var data
+                  const fs = require('fs')
+                  const savPath = srcPath = "db/pass.json"
+                  fs.readFile(srcPath, "utf-8", (err, data) => {
+                      if (err) { alert(err);console.log(err) }
+                      //Do your processing, MD5, send a satellite to the moon, etc.
+                      let d2 = JSON.parse(data)
+                      d2.push(this.pass)
+                      alert(JSON.stringify(d2))
+                      console.log(d2)
+                      fs.writeFile (savPath, JSON.stringify(d2), function(err) {
+                          if (err) { console.log(err) }
+                          console.log('complete')
+                      })
+                  })
+              }
           },
           computed: {
               pass2json(){ return(this.to_json(this.pass)) },
@@ -48,4 +65,4 @@
               width(){return((this.aircraft.cols.length+1)*this.aircraft.spacing)},
               length(){return((this.aircraft.rows+1)*this.aircraft.spacing)},
           },
-        });
+        })
